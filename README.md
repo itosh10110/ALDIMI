@@ -1,6 +1,6 @@
 
 # ALDIMI Predict — Sistema Predictivo de Gestión
-**Machine Learning 1ACC0057 · UPC · Grupo 2 · Hito 3**
+**Machine Learning 1ACC0057 · UPC · Grupo 2 · Hito 4 — Trabajo Final**
 
 > Sistema de predicción de desabastecimiento de inventario y clasificación de riesgo de pacientes para el Albergue Divina Misericordia (ALDIMI).
 
@@ -33,13 +33,17 @@ TB1/
 │   └── hito3/               ← Figuras modelado avanzado (fig13–fig17)
 │
 ├── Informe/
-│   ├── TB1_ALDIMI_v5.pdf    ← Informe Hito 3 (ENTREGABLE)
+│   ├── TB1_ALDIMI_v5.pdf    ← Informe Hito 3 (base del TF)
+│   ├── TF_secciones_nuevas.tex ← Secciones Hito 4 por integrar
+│   ├── manual_usuario_ALDIMI.docx
+│   ├── diccionario_datos_ALDIMI.xlsx
 │   ├── TB1_ALDIMI_v5.tex    ← Fuente LaTeX
 │   ├── TB1_ALDIMI_v5.docx   ← Versión Word
 │   ├── guion_exposicion_hito2.md
 │   └── versiones/           ← Versiones previas del informe
 │
-└── archivos/                ← RAR de respaldo
+├── archivos/                ← RAR de respaldo
+└── entrega/                 ← Paquete TF_1ASI404_3037_GRUPO_02.zip (/codigo /datos /docs)
 ```
 
 ---
@@ -100,7 +104,7 @@ xelatex TB1_ALDIMI_v5.tex   # segunda pasada para TOC
 
 ---
 
-## Modelos del Hito 3
+## Modelos finales (Hito 3/4)
 
 | Tarea | Modelo seleccionado | F1 | AUC |
 |---|---|---|---|
@@ -122,3 +126,20 @@ Los modelos fueron entrenados con `RandomizedSearchCV` (50–60 iteraciones) y `
 *ML 1ACC0057 · UPC · Junio 2026*
 # ALDIMI
 
+
+---
+
+## Estado de la entrega (Hito 4)
+
+- [x] Informe final completo: `Informe/TF_ALDIMI_v6.pdf` (Resumen Ejecutivo, CRISP-DM fases 1–6, MLOps, Ética, Confluencia IA, Anexos).
+- [x] BD común implementada: `integracion_bd.py` crea `data/aldimi_core.db`; el dashboard la lee automáticamente (sidebar muestra la fuente).
+- [x] Manual de usuario y diccionario de datos en `Informe/` y en `entrega/.../docs/`.
+- [x] Paquete de entrega: `entrega/TF_1ASI404_3037_GRUPO_02.zip` (/codigo /datos /docs).
+- [x] Guion del video y de la exposición: `Informe/guion_video_y_exposicion_hito4.md`.
+
+### Pendientes que dependen del equipo
+
+- [ ] Completar nombres y códigos de los integrantes en la portada de `TF_ALDIMI_v6.tex` y recompilar (xelatex ×2).
+- [ ] **Grabar el video de impacto** siguiendo el guion y poner el enlace en los Anexos del informe.
+- [ ] Coordinar con el grupo de IA la demo del OCR escribiendo en `aldimi_core.db`.
+- [ ] Regenerar el zip si el informe cambia.

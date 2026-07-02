@@ -1,0 +1,208 @@
+% ============================================================
+%  ALDIMI Predict -- Hito 4 (Trabajo Final)
+%  Secciones nuevas para completar el informe final segun el
+%  enunciado (seccion 9: Estructura del Informe Final).
+%  Integrar a TB1_ALDIMI_v5.tex (o crear TF_ALDIMI_v6.tex) y
+%  recompilar con XeLaTeX (2 pasadas).
+%  Los marcadores [COMPLETAR: ...] requieren datos del equipo.
+% ============================================================
+
+% ──────────────────────────────────────────────────────────
+% I. RESUMEN EJECUTIVO  (colocar al inicio, antes de la sec. 1)
+% ──────────────────────────────────────────────────────────
+\section*{Resumen Ejecutivo}
+\addcontentsline{toc}{section}{Resumen Ejecutivo}
+
+El Albergue Divina Misericordia (ALDIMI) atiende gratuitamente a niños y
+adolescentes con cáncer en situación de extrema pobreza y se encuentra en
+plena expansión (\emph{ALDIMI 2.0}): duplicará su capacidad de 50 a 100
+familias. Esta expansión es insostenible con procesos manuales: el kardex de
+almacén en hojas de cálculo no permite anticipar quiebres de stock, y la
+priorización de la atención de pacientes depende exclusivamente de la
+observación del personal.
+
+\textbf{ALDIMI Predict} aborda ambos problemas con dos frentes de Machine
+Learning desarrollados bajo la metodología CRISP-DM:
+
+\begin{itemize}[leftmargin=1.6em]
+  \item \textbf{Frente 1 --- Predicción de inventario:} modelos de
+        clasificación que anticipan el quiebre de stock de cada artículo a
+        7 y 14 días. El modelo seleccionado a 7 días (XGBoost) alcanza
+        \textbf{F1 = 0.9865} y \textbf{AUC = 0.9982}; a 14 días
+        (Random Forest), F1 = 0.9721 y AUC = 0.9901.
+  \item \textbf{Frente 2 --- Clasificación de riesgo de pacientes:} un
+        clasificador multiclase (XGBoost) que estima el nivel de prioridad
+        de atención (Bajo/Medio/Alto) con \textbf{F1-Macro = 0.75} y
+        \textbf{AUC-Macro = 0.9164} sobre 600 historias sintéticas derivadas
+        de las fichas reales de ingreso y reingreso del albergue.
+\end{itemize}
+
+Ambos modelos se despliegan en un \emph{dashboard} interactivo (Streamlit)
+diseñado para los directivos del albergue: alertas de stock accionables,
+evaluación individual de pacientes con factores de riesgo explicados
+(valores SHAP) y indicadores globales de gestión. El valor predictivo
+aportado se traduce en compras y campañas de donación planificadas con una
+o dos semanas de anticipación, y en la priorización temprana de pacientes
+con alta probabilidad de complicaciones, en línea con los ODS~2, 3 y 10.
+
+% ──────────────────────────────────────────────────────────
+% FASE 6 CRISP-DM: DESPLIEGUE  (nueva sección, después de la
+% evaluación / antes de la sección de valor del proyecto)
+% ──────────────────────────────────────────────────────────
+\section{Fase 6 --- Despliegue (Deployment) e Implementación MLOps}
+
+\subsection{Arquitectura del pipeline}
+
+El sistema sigue un pipeline de cuatro etapas, del dato crudo a la decisión:
+
+\begin{enumerate}[leftmargin=1.8em]
+  \item \textbf{Ingesta:} el kardex \texttt{ALMAcen upc.xlsx} y las fichas
+        de ingreso/reingreso de pacientes se transforman en los datasets
+        procesados (\texttt{data/processed/}): consolidado por artículo,
+        serie semanal de inventario y dataset sintético de pacientes.
+  \item \textbf{Entrenamiento:} el notebook
+        \texttt{notebooks/aldimi\_analisis\_modelado.ipynb} ejecuta la
+        preparación, el entrenamiento con \texttt{RandomizedSearchCV}
+        (50--60 iteraciones) y validación cruzada estratificada (5 folds),
+        y serializa los artefactos con \texttt{joblib}.
+  \item \textbf{Artefactos versionados:} \texttt{models/models\_inventario.pkl}
+        (XGBoost 7d + Random Forest 14d, con \emph{label encoder} y
+        \emph{scaler}) y \texttt{models/models\_pacientes.pkl} (XGBoost
+        multiclase con las 45 features de entrenamiento). Empaquetar el
+        preprocesamiento junto al modelo garantiza que la inferencia use
+        exactamente las mismas transformaciones que el entrenamiento.
+  \item \textbf{Serving:} \texttt{dashboard.py} (Streamlit) carga los
+        artefactos con caché (\texttt{st.cache\_resource}) y expone la
+        inferencia en tiempo real a través de formularios; se ejecuta en
+        local y se publica para demostraciones mediante t\'unel ngrok
+        (\texttt{lanzar\_demo.py}).
+\end{enumerate}
+
+\subsection{Estrategia de mantenimiento y reentrenamiento}
+
+\begin{itemize}[leftmargin=1.6em]
+  \item \textbf{Reentrenamiento periódico:} al cierre de cada mes (o al
+        incorporarse datos nuevos del módulo de IA), se re-ejecuta el
+        notebook y se regeneran los \texttt{.pkl}; el dashboard los toma
+        automáticamente sin cambios de código.
+  \item \textbf{Monitoreo de deriva:} comparar la distribución semanal de
+        \texttt{salidas\_semana} y la ocupación real contra los rangos de
+        entrenamiento (50--100 familias); si la ocupación supera el rango,
+        el modelo debe reentrenarse antes de confiar en sus alertas.
+  \item \textbf{Criterio de aceptación:} mantener F1 $\geq$ 0.95 en
+        inventario y F1-Macro $\geq$ 0.70 en pacientes sobre el conjunto de
+        prueba; por debajo de estos umbrales las alertas pasan a modo
+        consultivo (revisión manual obligatoria).
+\end{itemize}
+
+\subsection{Manual de usuario}
+
+Se elaboró un manual de usuario orientado al personal no técnico del
+albergue (instalación, navegación, interpretación de alertas y de niveles de
+riesgo, y solución de problemas). Se adjunta en
+\texttt{docs/manual\_usuario\_ALDIMI.docx} dentro del paquete de entrega.
+
+% ──────────────────────────────────────────────────────────
+% IV (complemento). ÉTICA DE DATOS Y ANÁLISIS DE SESGOS
+% ──────────────────────────────────────────────────────────
+\section{Ética de datos y análisis de sesgos}
+
+\subsection{Protección de datos y anonimización}
+
+Los datos de pacientes utilizados para el entrenamiento son
+\textbf{sintéticos}: se generaron respetando las distribuciones y reglas
+clínicas de las fichas reales de ingreso y reingreso de ALDIMI, pero sin
+contener ningún dato identificable de un niño real. Los identificadores
+(\texttt{id\_paciente}) son códigos anónimos. Esto permite desarrollar y
+compartir el sistema sin exponer información de salud de menores, en
+cumplimiento de la Ley de Protección de Datos Personales (Ley N.º 29733).
+
+\subsection{Sesgos identificados y mitigaciones}
+
+\begin{itemize}[leftmargin=1.6em]
+  \item \textbf{Desbalanceo de clases:} la clase ``Alto'' es minoritaria.
+        Se mitigó con \texttt{class\_weight} balanceado (Random Forest) y
+        \texttt{scale\_pos\_weight} (XGBoost), y se evaluó con F1-Macro
+        --- que pondera por igual las tres clases --- en lugar de accuracy.
+  \item \textbf{Sesgo socioeconómico:} variables como el grado de
+        instrucción del cuidador o la procedencia podrían inducir a que el
+        modelo asigne sistemáticamente mayor riesgo a familias de menor
+        nivel educativo o de zonas rurales. El análisis SHAP muestra que
+        las variables dominantes son clínicas (etapa del cáncer, estado
+        físico y nutricional, infección); las variables sociales actúan
+        como moduladores de contexto. Aun así, se recomienda auditar
+        periódicamente las tasas de clasificación ``Alto'' por procedencia
+        y nivel educativo para detectar disparidades.
+  \item \textbf{Automatización de decisiones clínicas:} el sistema se
+        diseñó como \emph{apoyo} a la priorización, nunca como decisor
+        final. Toda clasificación ``Alto'' exige confirmación del personal
+        de salud (human-in-the-loop), y el dashboard muestra los factores
+        detectados para que la recomendación sea auditable y explicable.
+  \item \textbf{Datos sintéticos:} el uso de datos sintéticos evita riesgos
+        de privacidad pero puede no capturar toda la variabilidad real. En
+        la fase de integración con datos reales (módulo de IA) los modelos
+        deberán revalidarse antes de su uso operativo.
+\end{itemize}
+
+% ──────────────────────────────────────────────────────────
+% V. CONFLUENCIA CON EL ECOSISTEMA "ALDIMI CORE AI"
+% ──────────────────────────────────────────────────────────
+\section{Confluencia con el ecosistema ALDIMI Core AI}
+
+\subsection{Contrato de datos con el módulo de IA}
+
+El curso de IA (1ASI0404) desarrolla el módulo de captura: OCR de fichas y
+recetas, y chatbot de registro. El punto de encuentro es la \textbf{base de
+datos común}: los campos que el OCR extrae de las fichas de ingreso
+(edad, diagnóstico, etapa, estado nutricional, etc.) coinciden con las
+variables de entrada del clasificador de riesgo, y los registros de
+movimientos de almacén alimentan la serie semanal de inventario.
+
+[COMPLETAR: describir la implementación real acordada con el grupo de IA ---
+motor de BD (p.~ej. PostgreSQL/Supabase/SQLite), esquema de tablas, y
+mecanismo de lectura (consulta directa / API REST / exportación CSV
+programada). Adjuntar captura o extracto del esquema como evidencia.]
+
+\subsection{Flujo end-to-end}
+
+El flujo demostrado en el video de impacto es: (1) el OCR del módulo de IA
+captura una ficha de ingreso y la persiste en la BD común; (2) el pipeline
+de ML lee el nuevo registro, aplica el preprocesamiento empaquetado en los
+artefactos y genera la predicción; (3) el dashboard muestra la alerta de
+stock o el nivel de riesgo del paciente para la toma de decisiones.
+
+\subsection{Lecciones aprendidas de la integración}
+
+\begin{itemize}[leftmargin=1.6em]
+  \item Definir el \emph{contrato de interfaz} (nombres, tipos y valores
+        v\'alidos de los campos) al inicio evita retrabajos: los valores
+        categ\'oricos del OCR deben coincidir exactamente con las categor\'ias
+        vistas en el entrenamiento.
+  \item Empaquetar \emph{scaler} y \emph{encoders} dentro del \texttt{.pkl}
+        elimina inconsistencias entre los equipos.
+  \item [COMPLETAR: 1--2 lecciones específicas del trabajo real con el
+        grupo de IA.]
+\end{itemize}
+
+% ──────────────────────────────────────────────────────────
+% VI. ANEXOS  (colocar al final, antes de las referencias)
+% ──────────────────────────────────────────────────────────
+\section*{Anexos}
+\addcontentsline{toc}{section}{Anexos}
+
+\begin{itemize}[leftmargin=1.6em]
+  \item \textbf{Repositorio de código:}
+        [COMPLETAR: URL de GitHub/GitLab con el código limpio y comentado].
+  \item \textbf{Diccionario de datos:} archivo
+        \texttt{docs/diccionario\_datos\_ALDIMI.xlsx} --- describe las
+        variables, tipos, rangos y porcentaje de nulos de los tres datasets
+        (\texttt{dataset\_semanal}, \texttt{dataset\_completo},
+        \texttt{pacientes\_sintetico}).
+  \item \textbf{Manual de usuario:}
+        \texttt{docs/manual\_usuario\_ALDIMI.docx}.
+  \item \textbf{Notebook de entrenamiento:}
+        \texttt{codigo/notebooks/aldimi\_analisis\_modelado.ipynb}
+        (reproduce el pipeline completo de CRISP-DM fases 3--5).
+  \item \textbf{Video de impacto:} [COMPLETAR: enlace al video de
+        demostración end-to-end integrado con el curso de IA].
+\end{itemize}
