@@ -789,7 +789,6 @@ elif pagina == "👤  Pacientes y prioridad":
                                 f"font-size:0.85rem;color:{GRIS}'>• {f}</div>",
                                 unsafe_allow_html=True)
 
-
     # ── Pacientes registrados con prioridad alta ─────────────────────────────
     st.markdown("<div style='height:12px'></div>", unsafe_allow_html=True)
     st.markdown('<p class="st">🔴 Pacientes registrados que requieren atención primero</p>',

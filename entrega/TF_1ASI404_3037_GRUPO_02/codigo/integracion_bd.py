@@ -28,6 +28,7 @@ PROCESSED = os.path.join(BASE, 'data', 'processed')
 TABLAS = {
     'inventario_semanal': 'aldimi_dataset_semanal.csv',
     'articulos':          'aldimi_dataset_completo.csv',
+    'catalogo_productos': 'catalogo_productos.csv',
     'pacientes':          'aldimi_pacientes_sintetico.csv',
 }
 

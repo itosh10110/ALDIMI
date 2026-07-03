@@ -1,0 +1,1679 @@
+﻿codigo_articulo,nombre_producto,presentacion,unidad_medida,categoria,categoria_general,origen,es_producto
+SINT0508,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0488PE,Registro técnico (sin descripción),,kg,Pescado,Cárnicos y pescados,real,False
+0206AZ,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,real,False
+0051ME,Pallar 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0922,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0487PE,Registro técnico (sin descripción),,kg,Pescado,Cárnicos y pescados,real,False
+SINT0214,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0940,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0980,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0524CE,Cerdo saborizado,,kg,Cerdo,Cárnicos y pescados,real,True
+SINT0437,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0495,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0442FS,Guindones,,kg,Frutos secos,Snacks y dulces,real,True
+0499AV,Pollo trozado,,kg,Aves,Avícolas,real,True
+0469SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+0215IN,Café Instantaneo Variado sachet,,unidad,Instantaneo,Bebidas e infusiones,real,True
+0072ME,Quinua Roja 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0335GE,Gelatina 10 kg,10 kg,unidad,"Gelatina, postres",Snacks y dulces,real,True
+0573LI,Detergente líquido 4 L,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0443FS,Habas,,kg,Frutos secos,Snacks y dulces,real,True
+0684COR,Registro técnico (sin descripción),,kg,Cordero,Cárnicos y pescados,real,False
+SINT0119,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0595LI,Lejía líquida color 4 lt,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0260,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0043,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0301,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0667,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0458SN,Gaseoa 1 1/2,,paquete,Snacks,Snacks y dulces,real,True
+SINT0160,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0377,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0174,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0039,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0247HA,Harina 7 semillas 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0063,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0691,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+03014CN,SALVIA,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0337,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0568,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0929,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,sintetico,False
+0242HA,Harina de almendra,,kg,Harina,Cereales y farináceos,real,True
+SINT0558,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0770,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0024ME,Frejol Panamito 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0302CN,PIMIENTA ENTERA NEGRA,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0342GE,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,real,False
+0371IN,Hierba Luisa 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+0385IN,Te verde 50 und,50 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0754,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0101AC,Aceite de OlivaExtra Virgen200 ml,,litro,Aceite,Abarrotes,real,True
+SINT0308,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0467SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+0067ME,Quinua 5 kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0324,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+0681COR,Cabrito en trozo,,kg,Cordero,Cárnicos y pescados,real,True
+SINT0819,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0302,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0011,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0424MR,Margarina 200 gr,200 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+0436MR,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,real,False
+SINT0171,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0366,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0956,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0876,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0030ME,Garbanzo 500gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0673,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0006,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0378IN,Infusion digestiva 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+0604LI,Limpiador Multiusos Antibacteria 4 lt,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0064,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0031ME,Garbanzo 1 kl,1 kg,kg,Menestras,Menestras,real,True
+0558VA,Asado de tira,,kg,Vacuno,Cárnicos y pescados,real,True
+0541VA,Higado de res 1 kl,1 kg,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0875,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0607LI,Limpiador Multiusos Antibacteria 20 Lt,20 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0765,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0357,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0415LA,Yogurt 1 lt,1 lt,lata,Lacteos,Lácteos,real,True
+0512AV,Carne molida de pollo,,kg,Aves,Avícolas,real,True
+SINT0306,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0418MR,Mermelada 310 gr,310 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0916,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0191AZ,Azucar rubia 2 kg,2 kg,kg,Azucar,Abarrotes,real,True
+SINT0226,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0165CR,Arroz Integral 5 kg,5 kg,kg,Cereal,Cereales y farináceos,real,True
+0274CN,Sillao 5 lt,5 lt,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0277,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0813,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0292CN,Oregano 1 kl,1 kg,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0619LI,Lavavajilla 400gr pote,400 gr,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0833,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0494,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0033ME,Garbanzo 10 kg,10 kg,kg,Menestras,Menestras,real,True
+SINT0351,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0507,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0300CN,AJINOMOTO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0576LI,Detergente líquido 10 L,10 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0247,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0118,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0774,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0516,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0779,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0223IN,Fortificante Instantaneo 380,,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0660,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0521,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0330,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0637LI,Cepillo de escoba,,unidad,Limpieza,Limpieza e higiene,real,True
+0327CN,Canela entera 1 kg,1 kg,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0865,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0176CR,Maizena 100 GR,100 gr,kg,Cereal,Cereales y farináceos,real,True
+0118CO,Trozo de atun aceite lata,lata,lata,Conserva,Conservas,real,True
+0061ME,Papa Seca 10 kg,10 kg,kg,Menestras,Menestras,real,True
+SINT0256,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0071ME,Quinua Negra 5 kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0781,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0235,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0743,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0433,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0171CR,Granola 500 gr,500 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0890,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0969,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0792,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+0138CO,Frejol Negro 425 gr,425 gr,lata,Conserva,Conservas,real,True
+0616LI,Sacasarro 500 ml,500 ml,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0498,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0016,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0345FI,Fideos largos 900 gr,900 gr,kg,Fideos,Cereales y farináceos,real,True
+0426MR,Manteca 200 gr,200 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+0080ME,Trigo 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0599,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0015,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0417LA,Leche evaporada tetra pack,,lata,Lacteos,Lácteos,real,True
+0627LI,Esponja multiusos para lavar,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0879,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0728,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0002,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0168,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0026,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0433MR,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,real,False
+SINT0548,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0391,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0127CO,Duraznos en mitades 820 gr,820 gr,lata,Conserva,Conservas,real,True
+SINT0688,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0858,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0262HA,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,real,False
+0519CE,Panceta sin hueso,,kg,Cerdo,Cárnicos y pescados,real,True
+0500AV,Higado de pollo,,kg,Aves,Avícolas,real,True
+SINT0358,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0492PE,Registro técnico (sin descripción),,kg,Pescado,Cárnicos y pescados,real,False
+0355FI,Fideos cortos sin gluten,,kg,Fideos,Cereales y farináceos,real,True
+SINT0504,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0276,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0384,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0278CN,Ketchup 850 gr,850 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0520CE,Chuleta de pierna,,kg,Cerdo,Cárnicos y pescados,real,True
+SINT0164,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0918,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0360,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0369,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0412LA,Leche complemento,,lata,Lacteos,Lácteos,real,True
+SINT0661,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0981,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0075ME,Quinua tricolor 10 kg,10 kg,kg,Menestras,Menestras,real,True
+0112AC,Aceite de oliva 4 lt,4 lt,litro,Aceite,Abarrotes,real,True
+SINT0675,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0763,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0554VA,Osobuco,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0294,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0588,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0326,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0274,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0125,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0053ME,Pallar 5 kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0093,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0078ME,Soya 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0250HA,Harina de camote 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0262,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0188AZ,Azucar blanca 10 kg,10 kg,kg,Azucar,Abarrotes,real,True
+0273CN,Sillao 500 ml,500 ml,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0489,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0536VA,Carne Molida,,kg,Vacuno,Cárnicos y pescados,real,True
+0126CO,Piña en almibar 500 gr lata,500 gr,lata,Conserva,Conservas,real,True
+0254HA,Harina de yuca,,kg,Harina,Cereales y farináceos,real,True
+SINT0231,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0586,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0902,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0590LI,Lejía líquida 10 lt,10 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0213IN,Cafe Instantaneo 180 gr,180 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0979,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0146,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0828,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0347FI,Fideos cortos 250 gr,250 gr,kg,Fideos,Cereales y farináceos,real,True
+0588LI,Lejía líquida 4 lt,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0348,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0094,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0632LI,Paño de limpieza delgado,,unidad,Limpieza,Limpieza e higiene,real,True
+0666LI,Registro técnico (sin descripción),,unidad,Otros,Otros,real,False
+0069ME,Quinua Negra 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0402LA,Lechet niño fresca 900 ml caja,900 ml,lata,Lacteos,Lácteos,real,True
+0319CN,FINAS HIERBAS,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0144CO,Registro técnico (sin descripción),,lata,Conserva,Conservas,real,False
+0357FI,Pasta lasagña 1 kg,1 kg,kg,Fideos,Cereales y farináceos,real,True
+SINT0445,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0622,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0087,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0831,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0563,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0264CN,Mayonesa 850 gr,850 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0675EM,Salchicha huachana,,unidad,Otros,Otros,real,True
+0419MR,Mermelada 700 gr,700 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0920,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0484,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0975,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0730,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0187AZ,Azucar blanca 2 kg,2 kg,kg,Azucar,Abarrotes,real,True
+SINT0951,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0356FI,Pasta lasagña 500 gr,500 gr,kg,Fideos,Cereales y farináceos,real,True
+SINT0298,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0354FI,Fideos largos sin gluten,,kg,Fideos,Cereales y farináceos,real,True
+0496AV,Pollo Sasami bandeJA,bandeja,kg,Aves,Avícolas,real,True
+SINT0607,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0148,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0987,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0662,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0240HA,Harina de quinua 200gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0392,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0723,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0572,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0430MR,Crema de avellana 1 kg,1 kg,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0645,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0042,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0677EM,Registro técnico (sin descripción),,unidad,Otros,Otros,real,False
+SINT0959,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0483PE,Filete de tilapa x 1kg (01 caja x10 kg),1 kg,kg,Pescado,Cárnicos y pescados,real,True
+SINT0715,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0122,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0808,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0738,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0731,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0734,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0595,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0334,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0992,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0243HA,Harina de linaza 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0429,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0972,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0305CN,COMINO MOLIDO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0806,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0736,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0695,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0700,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0420MR,Mermelada 950 gr,950 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+0173CR,Salvado de trigo 250 gr,250 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0104,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0467,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0604,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0046ME,Moron 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0290,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0687,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0535VA,Bisteck,,kg,Vacuno,Cárnicos y pescados,real,True
+0617LI,Acido Limpiador Sacasarro 4 lt,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0455SN,Galleta chocolate,,paquete,Snacks,Snacks y dulces,real,True
+SINT0674,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0546,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0437FS,Mix de Fruto Secos 150 gr,150 gr,kg,Frutos secos,Snacks y dulces,real,True
+0566LI,Detergente en polvo 10 Kg,10 kg,unidad,Limpieza,Limpieza e higiene,real,True
+0178CR,Maizena 10 kl,10 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0904,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0963,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0370IN,Anis 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+0671EM,Chorizo Finas Hierbas x4,,paquete,Embutidos,Cárnicos y pescados,real,True
+SINT0131,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0113,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0201AZ,Miel 5 lt,5 lt,kg,Azucar,Abarrotes,real,True
+0016ME,Frejol Canario 10,,kg,Menestras,Menestras,real,True
+0501AV,Corazon de pollo,,kg,Aves,Avícolas,real,True
+SINT0127,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0537,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0409LA,Leche 390 bolsitarro niños,,lata,Lacteos,Lácteos,real,True
+0649LI,Papel higienico doble hoja,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0045,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0225,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0528CE,Medallon de lomo,,kg,Cerdo,Cárnicos y pescados,real,True
+0202AZ,Azucar rubia 25 kg,25 kg,kg,Azucar,Abarrotes,real,True
+SINT0492,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0386IN,Te verde 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0152,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0289,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0919,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0212,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0220,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0272,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0058ME,Papa Seca 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0359,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0045ME,Mazi Cancha 5 kg,5 kg,kg,Menestras,Menestras,real,True
+0102AC,Aceite de Oliva Extra Virgen 900 ml,900 ml,litro,Aceite,Abarrotes,real,True
+0277CN,Ketchup 200 gr,200 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0178,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0103AC,Aceite de Oliva Extra Virgen 5 lt,5 lt,litro,Aceite,Abarrotes,real,True
+SINT0973,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0109AC,Aceite de Canola Spray 170,,litro,Aceite,Abarrotes,real,True
+0544VA,Asado pejerrey,,kg,Vacuno,Cárnicos y pescados,real,True
+0503AV,Alas con sabor,,kg,Aves,Avícolas,real,True
+0581LI,Suavizante de ropa 1.5 L,1.5 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0643LI,Bolsa basura 30 LT,30 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0135,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0193,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0891,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0942,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0342,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0131CO,Mix Verdura 184 gr,184 gr,lata,Conserva,Conservas,real,True
+0375IN,Infusion digestiva 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0071,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0166,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0668,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0320,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0455,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0563LI,Detergente en polvo 2 Kg,2 kg,unidad,Limpieza,Limpieza e higiene,real,True
+0334GE,Gelatina 5 kg,5 kg,unidad,"Gelatina, postres",Snacks y dulces,real,True
+0540VA,Higado de res 500 gr,500 gr,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0173,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0741,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0897,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0624LI,Lavavajilla 1 lt,1 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0800,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0008,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0489PE,Registro técnico (sin descripción),,kg,Pescado,Cárnicos y pescados,real,False
+SINT0931,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0218,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0211,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0847,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0134,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0229IN,Chocolisto marshmallow 150,,unidad,Instantaneo,Bebidas e infusiones,real,True
+0234HA,Harina s/preparar 180 gr,180 gr,kg,Harina,Cereales y farináceos,real,True
+0656LI,Papel toalla rollo,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0766,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0788,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0166CR,Cereal 450 gr caja,450 gr,kg,Cereal,Cereales y farináceos,real,True
+0431MR,Cirope miel de maple,,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0096,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0269CN,Sal Maras 500 gr,500 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0151CR,Avena 10 kl,10 kg,kg,Cereal,Cereales y farináceos,real,True
+0429MR,Crema de avellana 200,,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0786,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0605LI,Limpiador Multiusos Antibacteria 5 Lt,5 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0374,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0308CN,PALILLO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0195AZ,Azucar Impalpable 1kg,1 kg,kg,Azucar,Abarrotes,real,True
+0311CN,ESCENCIA DE VAINILLA,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0608LI,Desinfectante en aerosol 360 ml,360 ml,unidad,Limpieza,Limpieza e higiene,real,True
+0065ME,Quinua 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0514,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0614,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0056,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0950,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0472,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0398LA,Leche 900 ml caja,900 ml,lata,Lacteos,Lácteos,real,True
+SINT0381,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0387IN,Te verde saborizado 25,,caja,Infusion,Bebidas e infusiones,real,True
+SINT0882,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0221IN,Milo 700 gr lata,700 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+0599LI,Jabon ropa barra,,unidad,Limpieza,Limpieza e higiene,real,True
+0289CN,Polvo curcuma 25 gr,25 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0484PE,Filete de tilapa x 1kg (04 caja x10 kg),1 kg,kg,Pescado,Cárnicos y pescados,real,True
+SINT0624,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0550VA,Fibe ancho,,kg,Vacuno,Cárnicos y pescados,real,True
+0365IN,Te 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0986,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0402,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0106,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0414,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0203,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0579,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0376,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0580,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0589LI,Lejía líquida 5 lt,5 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0660LI,Limpiador de porcelanato 4 lt,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0861,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0620LI,Lavavajilla 800gr pote,800 gr,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0167,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0816,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0561LI,Detergente en polvo 500 g,500 gr,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0245,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0169,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0799,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0600,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0582LI,Suavizante de ropa 2 L,2 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0680,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0375,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0434,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0280CN,Caldo Maggi gallina,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0909,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0592,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0426,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0408,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0239HA,Chuño 180 gr,180 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0010,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0123,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0273,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0694,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0014,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0443,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0211IN,Polvo de cacao 200gr,200 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0863,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0283,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0533VA,Guiso especial,,kg,Vacuno,Cárnicos y pescados,real,True
+0060ME,Papa Seca 5 kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0362,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0663,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0567LI,Detergente en polvo 14 kg,14 kg,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0350,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0850,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0367IN,Te canela 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0802,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+0358FI,Fideos largos 10 kl,10 kg,kg,Fideos,Cereales y farináceos,real,True
+SINT0827,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0419,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0812,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0830,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0032,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0295CN,Salsa de tomate 400 gr,400 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0542,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0616,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0594LI,Lejía líquida color 2 lt,2 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0532,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0835,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0560VA,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,real,False
+0236HA,Harina preparada 180 gr,180 gr,kg,Harina,Cereales y farináceos,real,True
+0602LI,Limpiador Multiusos Antibacteria 900 ml,900 ml,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0739,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0199AZ,Miel 500,,kg,Azucar,Abarrotes,real,True
+SINT0809,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0982,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0293,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0083ME,Trigo 10 kg,10 kg,kg,Menestras,Menestras,real,True
+SINT0719,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0386,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0180,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0137,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0384IN,Variadas 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+0114AC,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,real,False
+SINT0735,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0510,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0205,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0549VA,Cuadril,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0953,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0896,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0867,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0340,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0312CN,Clavo de olor kl,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0868,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0456,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0186,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0368,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0456SN,Paneton,,paquete,Snacks,Snacks y dulces,real,True
+SINT0964,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0596LI,Quita mancha en polvo pequeño,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0999,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0491PE,Registro técnico (sin descripción),,kg,Pescado,Cárnicos y pescados,real,False
+SINT0648,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0458,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0417,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0652,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0557VA,Tomahook de carne,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0190,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0345,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0626LI,Lavavajilla 4 lt,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0894,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0703,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0265,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0884,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0650,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0126,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0330CN,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,False
+0257HA,Bicarbonato,,kg,Harina,Cereales y farináceos,real,True
+SINT0589,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0910,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0476HU,Huevo doble yema,,unidad,Huevos,Avícolas,real,True
+0325CN,Curcuma 250,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0036,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0825,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0843,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0814,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0727,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0640LI,Soda Caustica 1 lt,1 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0180CR,Hojuela de Maiz 500,,kg,Cereal,Cereales y farináceos,real,True
+SINT0684,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0229,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0040,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0088ME,Pop corn 5 kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0483,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0052,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0476,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0369IN,Anis 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0121,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0155,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0268CN,Sal rosada 1 kg,1 kg,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0290CN,Mezcla para apanar 96 gr,96 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0871,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0362FI,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,real,False
+0056ME,Pallar BB 5 kl,5 kg,kg,Menestras,Menestras,real,True
+SINT0452,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0019,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0453,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0566,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0699,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0532VA,Guiso,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0297,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0224IN,Polvo Instantaneo Tarwi 200 gr,200 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+0116CO,Filete de atun aceite lata,lata,lata,Conserva,Conservas,real,True
+SINT0567,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0538VA,Anticucho dr res 1/2 kg,2 kg,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0725,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0312,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0177CR,Maizena de 5 kg,5 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0952,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0480,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0019ME,Frejol Castilla 5 kl,5 kg,kg,Menestras,Menestras,real,True
+0427MR,Mantequilla de mani 200 gr,200 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0582,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0288CN,Vinagre balsamico 900 ml,900 ml,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0864,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0432MR,Miel de caña azucar,,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0175,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0994,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0032ME,Garbanzo 5 kg,5 kg,kg,Menestras,Menestras,real,True
+0685CUP,Jabon liquido antibacterial 800 ml,800 ml,unidad,Cuidado Personal,Limpieza e higiene,real,True
+SINT0421,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0217IN,Café granos 500 gr,500 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0488,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0329CN,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,False
+SINT0933,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0206,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0530,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0344FI,Fideos largos 500 gr,500 gr,kg,Fideos,Cereales y farináceos,real,True
+0150CR,Avena 5 kl,5 kg,kg,Cereal,Cereales y farináceos,real,True
+0364IN,Manzanilla 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+0085ME,Semola 200 gr,200 gr,kg,Menestras,Menestras,real,True
+0050ME,Moron partido 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0473SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+0158CR,Arroz 500 gr,500 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0485,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0416,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0311,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0571,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0506AV,Enrollado de pollo,,kg,Aves,Avícolas,real,True
+0182CR,Arroz 25 kg,25 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0936,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0881,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0591,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0534VA,Punta de pecho,,kg,Vacuno,Cárnicos y pescados,real,True
+0349FI,Fideos cortos 1 kg,1 kg,kg,Fideos,Cereales y farináceos,real,True
+SINT0533,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0747,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0591LI,Lejía líquida 20 lt,20 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0529,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0689,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0554,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0246HA,Harina de haba 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0268,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0315CN,TOMILLO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0439FS,Pasas Rubias,,kg,Frutos secos,Snacks y dulces,real,True
+SINT0702,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0207,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0310CN,OREGANO ENTERO SECO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0434MR,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,real,False
+0374IN,Flor jamaica 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+0572LI,Detergente líquido 2 L,2 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0101,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0184CR,Salvado de trigo 500 gr,500 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0625,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0597LI,Quita mancha en polvo grabde,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0021,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0772,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0299CN,AJI PAPRIKA,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0657LI,Papel absorvenre rollo,,unidad,Limpieza,Limpieza e higiene,real,True
+0466SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+SINT0832,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0355,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0381IN,Coca 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0388,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0129CO,Cocktail de fruta 820 gr,820 gr,lata,Conserva,Conservas,real,True
+SINT0544,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0142,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0359FI,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,real,False
+SINT0658,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0212IN,Chocolate Instantaneo 550 gr,550 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+0143CO,Registro técnico (sin descripción),,lata,Conserva,Conservas,real,False
+SINT0551,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0970,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0643,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0469,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0633,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0439,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0854,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,sintetico,False
+0634LI,Limpiador de crema multiusos,,unidad,Limpieza,Limpieza e higiene,real,True
+0623LI,Lavavajilla 500 ml,500 ml,unidad,Limpieza,Limpieza e higiene,real,True
+0011ME,Frejol Caballero 5 kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0877,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0285CN,Vinagre tinto 1 lt,1 lt,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0294CN,Salsa de tomate 290 gr,290 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0737,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0625LI,Lavavajilla 2 lt,2 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0132CO,Conserva arverjita 425 gr,425 gr,lata,Conserva,Conservas,real,True
+0326CN,Curcuma 500,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0649,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0613LI,Desengrasante líquido 1 Lt,1 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0899,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0824,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0635LI,Protecrtir de madera,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0878,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0655,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0161CR,Arroz 10 kg,10 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0621,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0522CE,Bondiola,,kg,Cerdo,Cárnicos y pescados,real,True
+SINT0983,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0603LI,Limpiador Multiusos Antibacteria 2 lt,2 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0198AZ,Miel 300 gr,300 gr,kg,Azucar,Abarrotes,real,True
+SINT0957,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0147,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0414LA,Yogurt 120g bebible,120 gr,lata,Lacteos,Lácteos,real,True
+0098AC,Aceite de Oliva Virgen200 ml,,litro,Aceite,Abarrotes,real,True
+SINT0974,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0905,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0159CR,Arroz 1 kg,1 kg,kg,Cereal,Cereales y farináceos,real,True
+0423MR,Mantequilla 180 gr,180 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0271,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0482HU,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,real,False
+SINT0618,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0130,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0161,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0710,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0451SN,Galletas vainilla,,paquete,Snacks,Snacks y dulces,real,True
+SINT0998,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0181CR,Hojuela de Maiz 950 gr,950 gr,kg,Cereal,Cereales y farináceos,real,True
+0394IN,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,real,False
+0584LI,Suavizante de ropa 5 L,5 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0769,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0751,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0886,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0938,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0753,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0139,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0708,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0145CR,Avena 150 gr,150 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0154,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0422,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0079,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0642LI,Bolsa basura 30 LT,30 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0849,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0621LI,Lavavajilla 500 ml repuesto,500 ml,unidad,Limpieza,Limpieza e higiene,real,True
+0297CN,AJI PANCA SECO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0676EM,Salchichon saborizado,,unidad,Otros,Otros,real,True
+SINT0105,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0090AC,Aceite Vegetal 900 ml,900 ml,litro,Aceite,Abarrotes,real,True
+0043ME,Maiz Cancha 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0840,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0134CO,ESPARRAGOS EN CONSERVA,,lata,Conserva,Conservas,real,True
+SINT0299,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0499,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0801,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0976,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0934,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0167CR,Cereal 700 gr caja,700 gr,kg,Cereal,Cereales y farináceos,real,True
+0293CN,Salsa de tomate 145 gr,145 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0034,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0745,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0352FI,Fideos chinos 500 gr,500 gr,kg,Fideos,Cereales y farináceos,real,True
+0577LI,Detergente líquido 20 L,20 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0565,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0996,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0709,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0908,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0061,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0257,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0463SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+0379IN,Muña 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+0336GE,GELATINA DIETETICA,,unidad,"Gelatina, postres",Snacks y dulces,real,True
+SINT0380,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0803,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0236,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0029,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0044,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0838,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0371,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0331CN,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,False
+SINT0077,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0321CN,+,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0115,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0412,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0258,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0170CR,Granola 200 gr bolsa,200 gr,kg,Cereal,Cereales y farináceos,real,True
+0013ME,Frejol Canario 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0174CR,Salvado de trigo con harina linaza 750 gr,750 gr,kg,Cereal,Cereales y farináceos,real,True
+0655LI,Servilletas dobldas en 4 x 100,,unidad,Limpieza,Limpieza e higiene,real,True
+0263CN,Mayonesa ligth 850 gr,850 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0080,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0395,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0679EM,Registro técnico (sin descripción),,unidad,Otros,Otros,real,False
+0261HA,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,real,False
+SINT0401,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0141CO,Comida para perro,,lata,Conserva,Conservas,real,True
+0555VA,Churrasco,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0679,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0657,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0403,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0705,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0564LI,Detergente en polvo 4 Kg,4 kg,unidad,Limpieza,Limpieza e higiene,real,True
+0142CO,Aceituna,,lata,Conserva,Conservas,real,True
+SINT0435,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0537VA,Carne Molida especial,,kg,Vacuno,Cárnicos y pescados,real,True
+0227IN,Cremas de Sopa Instantanea,,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0597,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0413LA,Leche para < 60,,lata,Lacteos,Lácteos,real,True
+0328CN,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,False
+SINT0506,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0301CN,PIMIENTA MOLIDA NEGRA,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0012,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0192,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0462,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0962,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0198,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0196AZ,Endulzante en polvo 200 und,200 und,kg,Azucar,Abarrotes,real,True
+0444FS,Mani entero,,kg,Frutos secos,Snacks y dulces,real,True
+0579LI,Suavizante de ropa 800 ml,800 ml,unidad,Limpieza,Limpieza e higiene,real,True
+0509AV,Pavo 13 kg,13 kg,kg,Aves,Avícolas,real,True
+0611LI,Desengrasante líquido 500 ml,500 ml,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0250,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0733,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0004ME,Arverja partida 5 kl gr,5 kg,kg,Menestras,Menestras,real,True
+SINT0789,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0472SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+0324CN,Salsa Ostion,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0006ME,Frejol Bayo 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0225IN,Cereal Inst 7 semillas 400 gr,400 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+0553VA,Hamburguesas Speciales,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0341,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0040ME,Lenteja BB 1 kl,1 kg,kg,Menestras,Menestras,real,True
+0548VA,Fibe angosto,,kg,Vacuno,Cárnicos y pescados,real,True
+0245HA,Harina de maca 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+0139CO,Frejol con tocino 454 gr,454 gr,lata,Conserva,Conservas,real,True
+SINT0928,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0965,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0692,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0449,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0697,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0538,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0465,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0502,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0587LI,Lejía líquida 2 lt,2 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0556,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0385,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0668LI,Registro técnico (sin descripción),,unidad,Otros,Otros,real,False
+SINT0778,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0520,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0380IN,Muña 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0046,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0317CN,ESTRAGON SECO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0446FS,Pistachos,,kg,Frutos secos,Snacks y dulces,real,True
+SINT0430,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0322CN,CREMA DE ESPARRAGOS,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0711,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0266,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0050,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0790,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0428MR,Mantequilla de almendras 200 gr,200 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+0559VA,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,real,False
+0600LI,Blanqueador en polvo chico,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0313,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+0372IN,Hierba Luisa 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0083,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0511,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0945,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0436,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0230IN,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,real,False
+SINT0179,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0000,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0718,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0278,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0068ME,Quinua 10 kg,10 kg,kg,Menestras,Menestras,real,True
+0397LA,Leche descramada 390 lata,lata,lata,Lacteos,Lácteos,real,True
+0585LI,Lejía líquida 500 ml,500 ml,unidad,Limpieza,Limpieza e higiene,real,True
+0025ME,Frejol Panamito 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0214IN,Cafe Instantaneo Liofilizado 180 gr,180 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0712,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0594,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0542VA,Mondongo 500 gr,500 gr,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0065,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0025,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0087ME,Pop corn 10 kg,10 kg,kg,Menestras,Menestras,real,True
+SINT0397,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0275CN,Canela molida,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0156,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0541,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0215,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0848,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0636LI,Escoba con mango,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0930,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0791,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0912,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0511AV,Medallones de pavo,,kg,Aves,Avícolas,real,True
+0276CN,Canela entera 2 KG,2 kg,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0241,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0638,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0366IN,Te 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0151,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0628LI,Esponja espiral,,unidad,Limpieza,Limpieza e higiene,real,True
+0003ME,Arverja partida 10 kg,10 kg,kg,Menestras,Menestras,real,True
+0007ME,Frejol Bayo 1 kl,1 kg,kg,Menestras,Menestras,real,True
+0313CN,LAUREL,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0640,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0072,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0672EM,Hot dog de pollo x 250 gr,250 gr,unidad,Otros,Otros,real,True
+0368IN,Te canela 100,,caja,Infusion,Bebidas e infusiones,real,True
+SINT0491,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0218IN,Café granos 1 kg,1 kg,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0717,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0028ME,Frejol Rojo 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0431,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0531VA,Costillar,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0027,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0254,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0644LI,Bolsa basura 30 LT,30 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0005,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0059,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0636,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0954,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0630LI,Ambientador de Aerosol,,unidad,Limpieza,Limpieza e higiene,real,True
+0008ME,Frejol Caballero 5 kl,5 kg,kg,Menestras,Menestras,real,True
+0259HA,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,real,False
+SINT0237,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0026ME,Frejol Panamito 5 kg,5 kg,kg,Menestras,Menestras,real,True
+0339GE,Chocolate de Taza,,unidad,"Gelatina, postres",Snacks y dulces,real,True
+0578LI,Repuesto detergente liquido 1.2 L,1.2 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0049ME,Moron 10 kl,10 kg,kg,Menestras,Menestras,real,True
+SINT0195,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0108AC,Aceite de Canola 1 lt,1 lt,litro,Aceite,Abarrotes,real,True
+0353FI,Fideos chinos fritos,,kg,Fideos,Cereales y farináceos,real,True
+0057ME,Pallar BB 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0671,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0216IN,Café descafeinado,,unidad,Instantaneo,Bebidas e infusiones,real,True
+0123CO,Filete de Bonito lata,lata,lata,Conserva,Conservas,real,True
+SINT0888,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0031,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0086,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0074ME,Quinua tricolor 5 kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0995,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0785,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0468,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0997,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0047ME,Moron 1 kl,1 kg,kg,Menestras,Menestras,real,True
+SINT0202,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0529CE,Toma hoock de cerdo,,kg,Cerdo,Cárnicos y pescados,real,True
+0235HA,Harina s/preparar 1kg,1 kg,kg,Harina,Cereales y farináceos,real,True
+SINT0576,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0473,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0690,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0448,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0539VA,Anticucho de 1 kg,1 kg,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0024,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0562,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0609LI,Limpiavidrios 500 ml,500 ml,unidad,Limpieza,Limpieza e higiene,real,True
+0470SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+SINT0993,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0917,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0219,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0762,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0282,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0062ME,Pop Corn 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0870,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0094AC,Aceite Spray 200 ml,200 ml,litro,Aceite,Abarrotes,real,True
+0673EM,Chorizo Preco x 4,,unidad,Otros,Otros,real,True
+SINT0213,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0784,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0197AZ,Endulzante 150 und,150 und,kg,Azucar,Abarrotes,real,True
+0283CN,Vinagre blanco 5 lt,5 lt,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0280,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0363IN,Manzanilla 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+0525CE,Bife de lomo,,kg,Cerdo,Cárnicos y pescados,real,True
+SINT0471,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0111,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0314,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0185AZ,Azucar blanca 1kg,1 kg,kg,Azucar,Abarrotes,real,True
+SINT0114,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0921,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0113AC,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,real,False
+SINT0181,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0291,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0044ME,Maiz Cancha 1 kl,1 kg,kg,Menestras,Menestras,real,True
+SINT0866,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0128CO,Peras mitades 820 gr,820 gr,lata,Conserva,Conservas,real,True
+0207AZ,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,real,False
+SINT0903,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0054ME,Pallar 10 kg,10 kg,kg,Menestras,Menestras,real,True
+SINT0170,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0551VA,Malaya,,kg,Vacuno,Cárnicos y pescados,real,True
+0070ME,Quinua Negra 1 kg,1 kg,kg,Menestras,Menestras,real,True
+SINT0911,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0513AV,Muslo de pello,,kg,Aves,Avícolas,real,True
+SINT0851,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0332GE,GELATINA 160 gr,160 gr,unidad,"Gelatina, postres",Snacks y dulces,real,True
+SINT0097,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0186AZ,Azucar blanca 5 kg,5 kg,kg,Azucar,Abarrotes,real,True
+0140CO,Comida para gato,,lata,Conserva,Conservas,real,True
+SINT0305,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0978,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0135CO,PALMITO CONSERVA,,lata,Conserva,Conservas,real,True
+0082ME,Trigo 5 kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0672,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0107AC,Aceite de Maiz 1 lt,1 lt,litro,Aceite,Abarrotes,real,True
+SINT0517,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0547VA,Entraña,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0379,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0486PE,Registro técnico (sin descripción),,kg,Pescado,Cárnicos y pescados,real,False
+0168CR,Cereal 1kl bolsa,1 kg,kg,Cereal,Cereales y farináceos,real,True
+0309CN,OREGANO MOLIDO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0450FS,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,real,False
+SINT0991,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0677,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0337GE,Flan,,unidad,"Gelatina, postres",Snacks y dulces,real,True
+SINT0394,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0361,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0099AC,Aceite de Oliva Virgen 900 ml,900 ml,litro,Aceite,Abarrotes,real,True
+SINT0490,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0343,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0221,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0609,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0487,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0425MR,Margarina 450 gr,450 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+0104AC,Aceite de Oliva Spray 200 ml,200 ml,litro,Aceite,Abarrotes,real,True
+0438FS,Pasas Morena,,kg,Frutos secos,Snacks y dulces,real,True
+0076ME,Quinua tricolor 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0389,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0344,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0760,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0231IN,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,real,False
+SINT0683,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0333,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0304CN,PIMIENTA MOLIDA BLANCA,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0232,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0183,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0857,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0914,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0067,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0023,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0392IN,Boldo 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+0238HA,Harina preparada 1 kg,1 kg,kg,Harina,Cereales y farináceos,real,True
+SINT0720,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0270CN,Sal Maras 1 kg,1 kg,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0307CN,ACHIOTE EN GRANO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0615,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0949,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0120CO,Lomo de atun agua lata,lata,lata,Conserva,Conservas,real,True
+SINT0780,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0680COR,Cordero en trozo,,kg,Cordero,Cárnicos y pescados,real,True
+0251HA,Harina de arroz glutinoso 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0075,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0666,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0073ME,Quinua Roja 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0096AC,Aceite Soya 5 lt,5 lt,litro,Aceite,Abarrotes,real,True
+SINT0405,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0034ME,Lenteja 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0892,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0512,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0400,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0452SN,Galletas saladas,,paquete,Snacks,Snacks y dulces,real,True
+0449FS,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,real,False
+SINT0522,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0584,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0990,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0862,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0001ME,Arverja partida 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0610,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,sintetico,False
+SINT0091,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0079ME,Soya kg,,kg,Menestras,Menestras,real,True
+0086ME,Semola 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0147CR,Avena precocida 380 gr,380 gr,kg,Cereal,Cereales y farináceos,real,True
+0084ME,Trigo 50 kg,50 kg,kg,Menestras,Menestras,real,True
+0462SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+SINT0051,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0683COR,Registro técnico (sin descripción),,kg,Cordero,Cárnicos y pescados,real,False
+SINT0013,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0022,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0440FS,Almedras,,kg,Frutos secos,Snacks y dulces,real,True
+SINT0451,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0948,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0650LI,Papel higienico triple hoja,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0526,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0090,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0428,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0856,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0194,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0898,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0408LA,Leche 390 bolsitarro descremada,,lata,Lacteos,Lácteos,real,True
+SINT0410,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0817,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0841,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0106AC,Aceite de Coco 200 gr,200 gr,litro,Aceite,Abarrotes,real,True
+0615LI,Desengrasante líquido 4 Lt,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0424,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0478,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0136,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0611,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0244,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0602,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0409,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0064ME,Pop Corn 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0284CN,Vinagre tinto 500 ml,500 ml,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0989,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0826,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0248,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+0241HA,Harina de avena integral 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+0226IN,Ecco Cebada 250 GR,250 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+0148CR,Avena 500 gr,500 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0216,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0377IN,Infusion dulces sueños 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0913,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0335,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0121CO,Solido de caballa lata,lata,lata,Conserva,Conservas,real,True
+SINT0619,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0353,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0253HA,Harina de trigo integral 500 gr,500 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0387,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0103,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0968,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0010ME,Frejol Caballlero 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0454SN,Galleta con cereales,,paquete,Snacks,Snacks y dulces,real,True
+SINT0947,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0258HA,Chuño 5kg,5 kg,kg,Harina,Cereales y farináceos,real,True
+SINT0557,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0393IN,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,real,False
+SINT0536,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0109,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0267,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0634,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0465SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+SINT0288,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0783,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,sintetico,False
+0507AV,Pavo de 7 kl,7 kg,kg,Aves,Avícolas,real,True
+SINT0296,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0062,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0749,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0261,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,sintetico,False
+0545VA,Lomo Fino,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0761,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0497,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0564,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0895,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0376IN,Infusion digestiva 50 und,50 und,caja,Infusion,Bebidas e infusiones,real,True
+0674EM,Hot dog pavo,,unidad,Otros,Otros,real,True
+SINT0577,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0361FI,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,real,False
+SINT0227,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0635,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0617,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0300,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0796,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0322,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0304,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0889,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0915,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0373,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0165,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0081ME,Trigo 1 kg,1 kg,kg,Menestras,Menestras,real,True
+SINT0055,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0926,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0678EM,Registro técnico (sin descripción),,unidad,Otros,Otros,real,False
+SINT0606,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0059ME,Papa Seca 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0136CO,Pure de manzana 370 gr,370 gr,lata,Conserva,Conservas,real,True
+SINT0398,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0637,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0893,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0510AV,Pechuga de pavo,,kg,Aves,Avícolas,real,True
+SINT0540,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0350FI,Fideo corto 4kl,4 kg,kg,Fideos,Cereales y farináceos,real,True
+0390IN,Cola de Caballo,,caja,Infusion,Bebidas e infusiones,real,True
+SINT0420,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0331,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0321,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0201,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0480HU,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,real,False
+SINT0057,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0100,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0658LI,Limpiador de crema multiusos,,unidad,Limpieza,Limpieza e higiene,real,True
+0175CR,Hojuela 275 gr,275 gr,kg,Cereal,Cereales y farináceos,real,True
+0039ME,Lenteja BB 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0370,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0092AC,Aceite Vegetal 5 lt,5 lt,litro,Aceite,Abarrotes,real,True
+SINT0818,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0332,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0393,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0961,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0560,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0505AV,Milanesa de pollo,,kg,Aves,Avícolas,real,True
+0341GE,Mazamorra morada,,unidad,"Gelatina, postres",Snacks y dulces,real,True
+0029ME,Frejol Rojo 1 kl,1 kg,kg,Menestras,Menestras,real,True
+SINT0354,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0804,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0798,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0172CR,Granola 1 kg,1 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0575,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0497AV,Pollo piernas c/ encuentro bandeja,bandeja,kg,Aves,Avícolas,real,True
+SINT0523,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0518,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0069,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,sintetico,False
+0593LI,Lejía líquida color 1 lt,1 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0493,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0663LI,Registro técnico (sin descripción),,unidad,Otros,Otros,real,False
+0237HA,Harina trigo 10 kl,10 kg,kg,Harina,Cereales y farináceos,real,True
+SINT0578,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0693,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0303,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0323,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0500,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0110AC,Aceite 18 lt (balde),18 lt,litro,Aceite,Abarrotes,real,True
+SINT0646,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0574LI,Jabon liquido para ropa 4 L,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0141,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0631,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0852,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0163,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0117,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0596,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0524,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0479,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0030,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0901,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0459SN,Gaseosa 3lt,3 lt,paquete,Snacks,Snacks y dulces,real,True
+0267CN,Sal rosada 500 gr,500 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0077ME,Soya 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0448FS,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,real,False
+0399LA,Leche Ligth 900 ml cJaja,900 ml,lata,Lacteos,Lácteos,real,True
+0179CR,Cebada kg,,kg,Cereal,Cereales y farináceos,real,True
+SINT0450,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0632,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0444,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0605,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0601LI,Blanqueador en polvo grande,,unidad,Limpieza,Limpieza e higiene,real,True
+0063ME,Pop Corn 1 kl,1 kg,kg,Menestras,Menestras,real,True
+SINT0199,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0149,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0295,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0281CN,Vinagre blanco 500 ml,500 ml,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0037ME,Lenteja 10 kg,10 kg,kg,Menestras,Menestras,real,True
+0669EM,Chorizo Preco x 4,,paquete,Embutidos,Cárnicos y pescados,real,True
+SINT0217,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0068,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0007,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0224,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0820,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0194AZ,Azucar rubia 50 kg,50 kg,kg,Azucar,Abarrotes,real,True
+SINT0003,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0461SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+0682COR,Registro técnico (sin descripción),,kg,Cordero,Cárnicos y pescados,real,False
+SINT0066,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0128,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0837,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0416LA,Yogurt 2lt,2 lt,lata,Lacteos,Lácteos,real,True
+SINT0447,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0810,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0622LI,Lavavajilla 300 ml,300 ml,unidad,Limpieza,Limpieza e higiene,real,True
+0117CO,Trozo de atun agua lata,lata,lata,Conserva,Conservas,real,True
+0421MR,Mermelada 180 gr,180 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+SINT0561,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0946,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0610LI,Limpiavidrios en spray 650 ml,650 ml,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0454,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0091AC,Aceite Vegetal 3 lt,3 lt,litro,Aceite,Abarrotes,real,True
+SINT0310,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0569,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0427,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0292,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0504AV,Pollo saborizado,,kg,Aves,Avícolas,real,True
+0012ME,Frejol Caballlero 10 kl,10 kg,kg,Menestras,Menestras,real,True
+0400LA,Leche descramada 900 mlcaja,caja,lata,Lacteos,Lácteos,real,True
+0287CN,Vinagre balsamico 250 ml,250 ml,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0132,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0076,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0654,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0748,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0811,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0110,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0162CR,Arroz 50 kg,50 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0664,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0967,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0260HA,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,real,False
+0338GE,Pudin chocolate,,unidad,"Gelatina, postres",Snacks y dulces,real,True
+SINT0701,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0423,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0521CE,Chuleta de lomo,,kg,Cerdo,Cárnicos y pescados,real,True
+SINT0706,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0327,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0347,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0275,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0116,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0372,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0527CE,Enrollado de cerdo,,kg,Cerdo,Cárnicos y pescados,real,True
+0023ME,Frejol Negro 5 kl,5 kg,kg,Menestras,Menestras,real,True
+0360FI,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,real,False
+SINT0129,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0343GE,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,real,False
+0435MR,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,real,False
+0478HU,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,real,False
+0220IN,Milo 380 gr lata,380 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0481,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0755,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0722,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0782,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0095AC,Aceite Soya 900 ml,900 ml,litro,Aceite,Abarrotes,real,True
+SINT0133,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0041,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0264,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0883,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0574,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0352,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0156CR,Avena Kiwicha 500 gr,500 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0018,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0842,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+SINT0860,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0528,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0586LI,Lejía líquida 1 lt,1 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0210,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0284,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0279,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0493AV,Pollo fresco entero,,kg,Aves,Avícolas,real,True
+0565LI,Detergente en polvo 5 Kg,5 kg,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0598,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0223,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0713,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0518CE,Panceta con hueso,,kg,Cerdo,Cárnicos y pescados,real,True
+0639LI,Paño trapeador,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0466,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0095,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0092,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0823,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0119CO,Lomo de atun aceite lata,lata,lata,Conserva,Conservas,real,True
+SINT0054,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0539,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0158,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0122CO,Filete de caballa lata,lata,lata,Conserva,Conservas,real,True
+0662LI,Desinfectante 4lt,4 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0001,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+0641LI,Soda Caustica 5 lt,5 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0373IN,Flor Jamaica 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+0271CN,Sal Parrillera,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0661LI,Limpiador de porcelanato 10 l,10 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0519,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0281,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0365,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0048ME,Moron 5kl,5 kg,kg,Menestras,Menestras,real,True
+SINT0496,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0581,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0208,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0787,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0188,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0102,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0005ME,Arverja partida 20 kg,20 kg,kg,Menestras,Menestras,real,True
+SINT0777,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0676,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0266CN,Sal Mesa 1kg,1 kg,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0364,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0200,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0447FS,Frutas deshidratadas,,kg,Frutos secos,Snacks y dulces,real,True
+SINT0628,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0757,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0060,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0474,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0306CN,TUCO SIBARITA,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0515,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0316CN,ROMERO SECO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0152CR,Avena con hojuelas 500 gr,500 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0457,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0844,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0580LI,Suavizante de ropa 1 L,1 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0052ME,Pallar 1 kl,1 kg,kg,Menestras,Menestras,real,True
+SINT0048,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0601,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0941,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0182,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0329,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0475HU,Huevo blanco,,unidad,Huevos,Avícolas,real,True
+SINT0501,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0659LI,Limpiador de porcelanato 1l,1 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0403LA,Leche condensada 387 g lata,387 gr,lata,Lacteos,Lácteos,real,True
+0517AV,Registro técnico (sin descripción),,kg,Aves,Avícolas,real,False
+0323CN,GERMINADOS,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0020ME,Frejol Castilla 10 kg,10 kg,kg,Menestras,Menestras,real,True
+SINT0678,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0036ME,Lenteja 5kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0049,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0822,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0553,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0411LA,Leche en polvo 2 a 24 meses,,lata,Lacteos,Lácteos,real,True
+SINT0204,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0543VA,Mondongo 1 kg,1 kg,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0307,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0234,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0356,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0248HA,Harina kiwicha 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+SINT0665,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0644,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0495AV,Pollo pechuga bandeja,bandeja,kg,Aves,Avícolas,real,True
+0157CR,Avena Chia 500 gr,500 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0239,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0486,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0631LI,Paño de limpieza absorvenre,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0626,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0575LI,Detergente líquido 5 L,5 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0937,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0018ME,Frejol Castilla 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0130CO,Maiz dulce 425 gr,425 gr,lata,Conserva,Conservas,real,True
+SINT0017,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0191,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0084,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0440,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0459,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0193AZ,Azucar rubia 10 kg,10 kg,kg,Azucar,Abarrotes,real,True
+SINT0074,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0707,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0020,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0325,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0612LI,Desengrasante en spray 650 ml,650 ml,unidad,Limpieza,Limpieza e higiene,real,True
+0183CR,Linaza 1 kg,1 kg,kg,Cereal,Cereales y farináceos,real,True
+0303CN,PIMIENTA CHAPA,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0502AV,Alas natural,,kg,Aves,Avícolas,real,True
+SINT0233,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0143,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0150,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0523CE,Carne molida de cerdo,,kg,Cerdo,Cárnicos y pescados,real,True
+SINT0185,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0481HU,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,real,False
+0160CR,Arroz 5 kg,5 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0263,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0222,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0017ME,Frejol Castilla 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0108,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0413,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0552VA,Hamburguesas Speciales Premium,,kg,Vacuno,Cárnicos y pescados,real,True
+0664LI,Registro técnico (sin descripción),,unidad,Otros,Otros,real,False
+SINT0651,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0477,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0958,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0587,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0726,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0286CN,Vinagre tinto 5 lt,5 lt,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0534,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0187,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0228IN,Sopas Instantaneas Instantaneas,,unidad,Instantaneo,Bebidas e infusiones,real,True
+0027ME,Frejol Panamito 10 kg,10 kg,kg,Menestras,Menestras,real,True
+SINT0839,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0441FS,Pecanas,,kg,Frutos secos,Snacks y dulces,real,True
+SINT0189,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0232IN,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,real,False
+0038ME,Lenteja 50 kg,50 kg,kg,Menestras,Menestras,real,True
+SINT0107,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0773,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0474HU,Huevo pardo,,unidad,Huevos,Avícolas,real,True
+SINT0641,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0955,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0859,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0418,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0645LI,Bolsa basura 50 LT,50 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0869,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0446,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0593,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0463,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0157,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0573,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0425,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0163CR,Arroz 3 kl gr,3 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0603,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0383,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0721,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0887,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0613,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0033,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0155CR,Avena Maca 500 gr,500 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0230,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0515AV,Molleja de pollo,,kg,Aves,Avícolas,real,True
+SINT0885,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0124,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0159,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0105AC,Aceite de Olivia Virgen 200 ml,200 ml,litro,Aceite,Abarrotes,real,True
+0592LI,Lejía líquida color 500 ml,500 ml,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0085,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0390,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,sintetico,False
+0055ME,Pallar BB 10 kl,10 kg,kg,Menestras,Menestras,real,True
+0154CR,Avena quinua 900 gr,900 gr,kg,Cereal,Cereales y farináceos,real,True
+0407LA,Leche 390 bolsitarro ligth,,lata,Lacteos,Lácteos,real,True
+SINT0243,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0210IN,Nibs Cacao 100 gr,100 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0252,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0653,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0639,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0009ME,Frejol Caballero 500 gr,500 gr,kg,Menestras,Menestras,real,True
+SINT0316,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0460,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0145,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0457SN,Gaseosa,,paquete,Snacks,Snacks y dulces,real,True
+0256HA,Polvo de hornear,,kg,Harina,Cereales y farináceos,real,True
+SINT0704,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0249,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0744,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0535,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0821,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0629LI,Paño microfibra,,unidad,Limpieza,Limpieza e higiene,real,True
+0348FI,Fideos cortos 500 gr,500 gr,kg,Fideos,Cereales y farináceos,real,True
+SINT0339,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0265CN,Sal cocina 1kg,1 kg,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0037,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0153CR,Avena con hojuela 900 gr,900 gr,kg,Cereal,Cereales y farináceos,real,True
+0477HU,Huevo de codorniz,,unidad,Huevos,Avícolas,real,True
+0646LI,Bolsa basura 70 LT,70 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0099,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0461,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0556VA,Pulmon,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0286,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0494AV,Pollo pechuga especial,,kg,Aves,Avícolas,real,True
+SINT0612,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0756,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0149CR,Avena 1 kl,1 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0315,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+0406LA,Leche 390 bolsitarro,,lata,Lacteos,Lácteos,real,True
+SINT0009,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0724,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0665LI,Registro técnico (sin descripción),,unidad,Otros,Otros,real,False
+SINT0732,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0468SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+SINT0750,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0189AZ,Azucar blanca 50 kg,50 kg,kg,Azucar,Abarrotes,real,True
+SINT0525,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0943,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0614LI,Desengrasante líquido 2 Lt,2 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0146CR,Avena de 200 gr variado,200 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0590,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0482,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0200AZ,Miel 1lt,1 lt,kg,Azucar,Abarrotes,real,True
+SINT0836,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0282CN,Vinagre blanco 1 lt,1 lt,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0296CN,Salsa tomate 1kl,1 kg,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0406,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0404LA,Leche chocolatada 900 ml,900 ml,lata,Lacteos,Lácteos,real,True
+0125CO,Sardina lata,lata,lata,Conserva,Conservas,real,True
+SINT0630,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0205AZ,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,real,False
+SINT0309,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0249HA,Harina sin gluten,,kg,Harina,Cereales y farináceos,real,True
+SINT0112,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0686,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0251,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0336,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0752,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0388IN,Te verde 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0855,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0363,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0222IN,Milo 970 gr bolsa,970 gr,unidad,Instantaneo,Bebidas e infusiones,real,True
+0647LI,Bolsa basura 180LT,180 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0002ME,Arverja partida 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0115CO,Filete de atun agua lata,lata,lata,Conserva,Conservas,real,True
+SINT0319,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0775,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+SINT0900,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0505,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0415,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0246,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0759,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0768,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0445FS,Mani Molido,,kg,Frutos secos,Snacks y dulces,real,True
+SINT0669,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0470,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0608,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+0670EM,Chorizo Parrillero x 4,,paquete,Embutidos,Cárnicos y pescados,real,True
+SINT0880,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0399,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0035,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0320CN,HONGO SECO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0654LI,Servilletas dobladas x 100,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0509,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0346,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0550,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+SINT0255,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0464,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0633LI,Paño amarillo Virurex,,unidad,Limpieza,Limpieza e higiene,real,True
+0638LI,Recojedor mango,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0971,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0197,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0438,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0966,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0681,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0927,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0623,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0053,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0776,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0138,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0184,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0651LI,Papel higienico normal,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0629,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0562LI,Detergente en polvo 900 g,900 gr,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0740,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+0583LI,Suavizante de ropa 3 L,3 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0285,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0620,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0793,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0530VA,Costilla baby,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0238,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0546VA,Picaña,,kg,Vacuno,Cárnicos y pescados,real,True
+SINT0758,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0543,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0647,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0874,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0490PE,Registro técnico (sin descripción),,kg,Pescado,Cárnicos y pescados,real,False
+0097AC,Aceite Soya 20 lt,20 lt,litro,Aceite,Abarrotes,real,True
+SINT0404,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0569LI,Detergente líquido 1 L,1 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0407,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,sintetico,False
+SINT0209,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0845,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0242,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+SINT0925,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0144,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0209AZ,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,real,False
+0396LA,Leche Ligth 390 lata,lata,lata,Lacteos,Lácteos,real,True
+SINT0432,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0829,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0401LA,Leche niño 390 lata,lata,lata,Lacteos,Lácteos,real,True
+SINT0714,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0378,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0834,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0939,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0648LI,Bolsa basura 240 LT,240 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0269,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0618LI,Acido Limpiador Sacasarro 1.8 lt,1.8 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0797,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0924,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0411,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0100AC,Aceite de Oliva Virgen 5 lt,5 lt,litro,Aceite,Abarrotes,real,True
+SINT0559,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0410LA,Leche en polvo niños de 0 a 12,,lata,Lacteos,Lácteos,real,True
+0508AV,Pavo de 9 kl,9 kg,kg,Aves,Avícolas,real,True
+SINT0696,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0073,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0082,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0716,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0203AZ,Azucar blanca 25 kg,25 kg,kg,Azucar,Abarrotes,real,True
+0137CO,Castaña de agua tajada 564 gr,564 gr,lata,Conserva,Conservas,real,True
+SINT0140,Registro técnico (sin descripción),,unidad,"Gelatina, postres",Snacks y dulces,sintetico,False
+0041ME,Lenteja BB 10 kl,10 kg,kg,Menestras,Menestras,real,True
+SINT0872,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0233IN,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,real,False
+SINT0004,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0382IN,Coca 100 und,100 und,caja,Infusion,Bebidas e infusiones,real,True
+0291CN,Oregano 500 gr,500 gr,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0422MR,Mantequilla 390 gr,390 gr,unidad,"Mermelada, mantequilla",Abarrotes,real,True
+0395LA,Leche Evaporada 390 gr lata,390 gr,lata,Lacteos,Lácteos,real,True
+0598LI,Cuello puño ropa blanca,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0098,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0396,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0338,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0944,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0653LI,Servilletas cortadas x 200,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0089,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0253,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0526CE,Guiso de cerdo,,kg,Cerdo,Cárnicos y pescados,real,True
+0066ME,Quinua 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0015ME,Frejol Canario 5kg,5 kg,kg,Menestras,Menestras,real,True
+SINT0177,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0923,Registro técnico (sin descripción),,kg,Cerdo,Cárnicos y pescados,sintetico,False
+0498AV,Pollo ligth,,kg,Aves,Avícolas,real,True
+0383IN,Variadas 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+0190AZ,Azucar rubia 1kg,1 kg,kg,Azucar,Abarrotes,real,True
+SINT0318,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0219IN,Café en capsulas,,unidad,Instantaneo,Bebidas e infusiones,real,True
+SINT0985,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0442,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0078,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+0340GE,Cacao en barra,,unidad,"Gelatina, postres",Snacks y dulces,real,True
+SINT0328,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0298CN,AJI MARISOL SECO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0547,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0287,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0698,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0460SN,Crackelet,,paquete,Snacks,Snacks y dulces,real,True
+SINT0270,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0120,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+0272CN,Sillao 1 lt,1 lt,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0228,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0204AZ,Hojuela 275 gr,275 gr,kg,Azucar,Abarrotes,real,True
+0164CR,Arroz Integral 1 kg,1 kg,kg,Cereal,Cereales y farináceos,real,True
+SINT0815,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+SINT0570,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0405LA,Leche Fresca b900 ml botella,,lata,Lacteos,Lácteos,real,True
+SINT0527,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0742,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0585,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0571LI,Detergente líquido 2.5 L,2.5 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0906,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0172,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0552,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0932,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0729,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0367,Registro técnico (sin descripción),,unidad,"Mermelada, mantequilla",Abarrotes,sintetico,False
+0208AZ,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,real,False
+0035ME,Lenteja 1 kg,1 kg,kg,Menestras,Menestras,real,True
+SINT0764,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0514AV,Sangrecita de pollo,,kg,Aves,Avícolas,real,True
+SINT0317,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0846,Registro técnico (sin descripción),,lata,Lacteos,Lácteos,sintetico,False
+SINT0805,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0659,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+0093AC,Aceite Vegetal 20 lt,20 lt,litro,Aceite,Abarrotes,real,True
+SINT0807,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0907,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+0570LI,Detergente líquido 1.5 L,1.5 lt,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0746,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+SINT0088,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+0244HA,Harina de cañihua 200 gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+0014ME,Frejol Canario 1 kg,1 kg,kg,Menestras,Menestras,real,True
+0318CN,BOLDO,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+0606LI,Limpiador Multiusos Antibacteria 10 Lt,10 lt,unidad,Limpieza,Limpieza e higiene,real,True
+0391IN,Te rojo 25 und,25 und,caja,Infusion,Bebidas e infusiones,real,True
+SINT0984,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0169CR,Cereal en barra 253 gr caja 12 un,253 gr,kg,Cereal,Cereales y farináceos,real,True
+SINT0767,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0021ME,Frejol Negro 500 gr,500 gr,kg,Menestras,Menestras,real,True
+0652LI,Servilletas x 50,,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0794,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0988,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0047,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0977,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0038,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0771,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0568LI,Detergente en polvo 20 kg,20 kg,unidad,Limpieza,Limpieza e higiene,real,True
+SINT0475,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,sintetico,False
+SINT0513,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0081,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0192AZ,Azucar rubia 5 kg,5 kg,kg,Azucar,Abarrotes,real,True
+SINT0935,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+SINT0549,Registro técnico (sin descripción),,kg,Fideos,Cereales y farináceos,sintetico,False
+SINT0240,Registro técnico (sin descripción),,kg,Frutos secos,Snacks y dulces,sintetico,False
+0516AV,Piernas de pollo kg,,kg,Aves,Avícolas,real,True
+SINT0531,Registro técnico (sin descripción),,kg,Cereal,Cereales y farináceos,sintetico,False
+0479HU,Registro técnico (sin descripción),,unidad,Huevos,Avícolas,real,False
+SINT0555,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0259,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0070,Registro técnico (sin descripción),,unidad,Instantaneo,Bebidas e infusiones,sintetico,False
+0255HA,Harina de Mix fibras 200gr,200 gr,kg,Harina,Cereales y farináceos,real,True
+0022ME,Frejol Negro 1 kl,1 kg,kg,Menestras,Menestras,real,True
+SINT0162,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0464SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+SINT0960,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+0279CN,Caldo Maggi carne,,unidad,"Condimentos, Salsas, cremas",Abarrotes,real,True
+SINT0196,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False
+SINT0153,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0389IN,Mix de Te,,caja,Infusion,Bebidas e infusiones,real,True
+SINT0583,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0441,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0642,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0346FI,Fideos largos 5 kl,5 kg,kg,Fideos,Cereales y farináceos,real,True
+SINT0382,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0503,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+0133CO,CHAMPIÑONES 400 gr,400 gr,lata,Conserva,Conservas,real,True
+SINT0656,Registro técnico (sin descripción),,litro,Aceite,Abarrotes,sintetico,False
+SINT0545,Registro técnico (sin descripción),,kg,Azucar,Abarrotes,sintetico,False
+SINT0853,Registro técnico (sin descripción),,caja,Infusion,Bebidas e infusiones,sintetico,False
+0089ME,Registro técnico (sin descripción),,kg,Menestras,Menestras,real,False
+SINT0795,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+0333GE,Gelatina 1 kl,1 kg,unidad,"Gelatina, postres",Snacks y dulces,real,True
+SINT0349,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+0471SN,Registro técnico (sin descripción),,paquete,Snacks,Snacks y dulces,real,False
+0124CO,Grated de Atun lata,lata,lata,Conserva,Conservas,real,True
+SINT0058,Registro técnico (sin descripción),,unidad,Limpieza,Limpieza e higiene,sintetico,False
+SINT0028,Registro técnico (sin descripción),,lata,Conserva,Conservas,sintetico,False
+SINT0682,Registro técnico (sin descripción),,unidad,"Condimentos, Salsas, cremas",Abarrotes,sintetico,False
+SINT0873,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0685,Registro técnico (sin descripción),,kg,Menestras,Menestras,sintetico,False
+SINT0670,Registro técnico (sin descripción),,kg,Harina,Cereales y farináceos,sintetico,False
+SINT0627,Registro técnico (sin descripción),,kg,Vacuno,Cárnicos y pescados,sintetico,False
+SINT0176,Registro técnico (sin descripción),,kg,Aves,Avícolas,sintetico,False

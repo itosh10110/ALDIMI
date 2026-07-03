@@ -21,9 +21,14 @@ TB1/
 ├── data/
 │   ├── raw/                  ← Datos originales de ALDIMI
 │   └── processed/            ← CSVs listos para el dashboard
+│       ├── catalogo_productos.csv        ← Catálogo maestro (nombre, unidad, categoría general)
 │       ├── aldimi_dataset_semanal.csv
 │       ├── aldimi_dataset_completo.csv
 │       └── aldimi_pacientes_sintetico.csv
+│
+├── scripts/
+│   ├── build_catalogo.py       ← Genera el catálogo desde el kardex original
+│   └── enriquecer_datasets.py  ← Añade nombre/unidad/categoría a los datasets
 │
 ├── notebooks/
 │   └── aldimi_analisis_modelado.ipynb   ← Entrenamiento completo
@@ -136,6 +141,16 @@ Los modelos fueron entrenados con `RandomizedSearchCV` (50–60 iteraciones) y `
 - [x] Manual de usuario y diccionario de datos en `Informe/` y en `entrega/.../docs/`.
 - [x] Paquete de entrega: `entrega/TF_1ASI404_3037_GRUPO_02.zip` (/codigo /datos /docs).
 - [x] Guion del video y de la exposición: `Informe/guion_video_y_exposicion_hito4.md`.
+
+### Correcciones tras la revisión del profesor (julio 2026)
+
+- [x] **Catálogo de productos** (`data/processed/catalogo_productos.csv`): separa el código interno del nombre visible del producto. El código queda solo como apoyo de búsqueda en la app.
+- [x] **Unidad de medida estándar por tipo de producto**: kg, litro, lata, caja, paquete o unidad, definida por regla de negocio en `scripts/build_catalogo.py`.
+- [x] **Categorías generales de negocio**: las 25 categorías específicas del kardex se agrupan en 11 grupos (Avícolas, Menestras, Lácteos, Cereales y farináceos, Conservas, Abarrotes, Bebidas e infusiones, Snacks y dulces, Cárnicos y pescados, Limpieza e higiene, Otros).
+- [x] **Códigos técnicos identificados**: los registros `SINT####` (sintéticos) y los códigos sin descripción se marcan con `es_producto = False`; se usan solo para entrenar los modelos y **no aparecen en la app**. La vista operativa muestra los 602 productos reales.
+- [x] **Lenguaje operativo en la app**: el dashboard habla de "producto", "stock actual", "unidad", "categoría general" y "reponer"; los campos técnicos quedan en expanders para el equipo técnico.
+- [x] **`EDA_INVENTARIO.ipynb` corregido**: antes analizaba un dataset de otro contexto (ítems con proveedores y lead-time); ahora analiza los datos reales del almacén ALDIMI.
+- [x] **Diccionario de datos actualizado** con la hoja `catalogo_productos` y las columnas nuevas.
 
 ### Pendientes que dependen del equipo
 

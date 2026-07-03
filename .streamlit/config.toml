@@ -1,0 +1,10 @@
+# Tema global de ALDIMI Predict — reemplaza todo el CSS manual del dashboard.
+# Paleta sobria orientada al sector salud.
+
+[theme]
+base = "light"
+primaryColor = "#1F4E79"            # azul institucional (botones, sliders, acentos)
+backgroundColor = "#F6F8FA"         # fondo principal
+secondaryBackgroundColor = "#FFFFFF" # sidebar, contenedores, inputs
+textColor = "#2B3A46"
+font = "sans serif"
