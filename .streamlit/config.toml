@@ -1,10 +1,10 @@
-# Tema global de ALDIMI Predict — reemplaza todo el CSS manual del dashboard.
-# Paleta sobria orientada al sector salud.
+# Tema global de ALDIMI Predict — modo oscuro azul para el dashboard.
+# La UI nativa de Streamlit hereda estos valores.
 
 [theme]
-base = "light"
-primaryColor = "#1F4E79"            # azul institucional (botones, sliders, acentos)
-backgroundColor = "#F6F8FA"         # fondo principal
-secondaryBackgroundColor = "#FFFFFF" # sidebar, contenedores, inputs
-textColor = "#2B3A46"
+base = "dark"
+primaryColor = "#3B82F6"             # azul principal (botones, sliders, acentos)
+backgroundColor = "#0B1220"          # fondo principal
+secondaryBackgroundColor = "#111B2E"  # sidebar, contenedores, inputs
+textColor = "#F8FAFC"
 font = "sans serif"
