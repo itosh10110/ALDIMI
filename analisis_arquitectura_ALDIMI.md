@@ -3,14 +3,6 @@
 
 ---
 
-> **Nota de actualización (6 jul):** este documento se generó el 3 de julio y varias
-> de sus recomendaciones de limpieza **ya se aplicaron** (ver detalle abajo). Los
-> apartados 2, 3 y 5.8 quedaron desactualizados respecto al modelo de pacientes y a
-> la estructura de carpetas; se anota inline dónde. Para el estado de pendientes
-> frente al profesor y al equipo, ver `revision_pendientes_hito4.md`.
-
----
-
 ## 1. Visión general del proyecto
 
 **ALDIMI Predict** es una aplicación web de Machine Learning para el **Albergue Divina Misericordia (ALDIMI)**, un albergue oncológico pediátrico en Lima. El sistema resuelve dos problemas operativos reales:
@@ -108,16 +100,6 @@ Leyenda: `★` = activo y necesario · `⚠` = requiere revisión · `✖` = can
 ---
 
 ## 3. Archivos y carpetas candidatos a eliminación
-
-> **✅ Ya resuelto (al 6 jul):** `data_aldimi/`, `data_nueva/`, `Doc/`, `archivos/`,
-> `EDA_Alimentos.ipynb` y `EDA_LEUCEMIA.ipynb` **ya no existen** en el repo — se
-> aplicó la limpieza sugerida en 3.1/3.2. `EDA_INVENTARIO.ipynb` ya vive en
-> `notebooks/`, no en la raíz. Sigue pendiente lo de `entrega/`: el directorio
-> descomprimido `TF_1ASI404_3037_GRUPO_02/` sigue ahí, pero **el `.zip` de entrega
-> ya ni siquiera existe en el repo** — hay que generarlo de nuevo desde el estado
-> actual (ver `revision_pendientes_hito4.md`, sección 3). También apareció un
-> archivo nuevo no contemplado aquí: `dashboard_legacy.py` (versión anterior del
-> dashboard, ver nota en 5.8).
 
 ### 3.1 Eliminación segura (sin riesgo)
 
@@ -422,18 +404,6 @@ python scripts/generar_eda_inventario.py --ejecutar # genera Y ejecuta las celda
 ---
 
 ### 5.8 `models/` — Modelos entrenados
-
-> **⚠️ Desactualizado (al 6 jul):** desde el 5 de julio, `dashboard.py` **ya no
-> carga `models_pacientes.pkl`** (multiclase Alto/Medio/Bajo, descrito abajo).
-> Carga en su lugar `models/risk_model_rf_binary.joblib`, un `Pipeline` de
-> scikit-learn (ColumnTransformer + `RandomForestClassifier`) binario (Alto/Bajo),
-> con una banda intermedia de "Revisión" calculada por score (no una clase
-> entrenada). Ese artefacto **no se genera en ningún notebook del repo** — no hay
-> trazabilidad CRISP-DM de cómo se entrenó. Validación propia (Stratified 5-fold
-> CV, combinando `aldimi_pacientes_sintetico.csv` + `_demo.csv` sin duplicados,
-> n=405 casos Bajo/Alto): **accuracy 94.8% · F1 0.95 · AUC 0.99**, consistente con
-> el 94% que reportó el equipo. `models_pacientes.pkl` solo lo sigue cargando
-> `dashboard_legacy.py` (la versión anterior del dashboard, no la vigente).
 
 **Función:** Almacena los modelos ML serializados con joblib.
 
