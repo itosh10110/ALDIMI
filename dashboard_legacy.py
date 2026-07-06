@@ -1,19 +1,3 @@
-"""
-⚠️ ARCHIVO LEGACY — NO ES EL DASHBOARD VIGENTE ⚠️
-──────────────────────────────────────────────────
-Esta es la versión ANTERIOR del dashboard (previa al rediseño "full UI/UX" de
-julio). Se conserva solo como referencia/backup.
-
-- La app que corre en producción es `dashboard.py` (raíz del proyecto).
-- Este archivo todavía carga `models/models_pacientes.pkl`, el modelo de
-  pacientes MULTICLASE (Alto/Medio/Bajo) que ya fue reemplazado por el modelo
-  binario `models/risk_model_rf_binary.joblib` (ver `dashboard.py`).
-- No usar este archivo para la demo, el video ni la sustentación.
-
-Si el equipo confirma que ya no hace falta, se puede eliminar o mover a una
-carpeta `archive/`; mientras tanto queda marcado aquí para evitar confusiones
-al revisar el repo. Ver `revision_pendientes_hito4.md`, sección 4.
-"""
 import streamlit as st
 import pandas as pd
 import numpy as np
