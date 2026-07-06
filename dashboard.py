@@ -478,11 +478,23 @@ def vista_usuario(ctx: dict) -> None:
     with tab_inv:
         st.header("Plan de reposición — próximos 14 días")
 
+        # Sugerido a partir del registro de pacientes en vivo (no ctx, que puede
+        # quedar un paso atrás justo después de registrar/editar un paciente en
+        # esta misma sesión, antes del siguiente refresco natural de la página).
+        df_pac_fresco = cargar_pacientes_actual()
+        familias_sugeridas = max(1, len(df_pac_fresco))
         familias = st.number_input(
             "¿Cuántas familias hay hoy en el albergue?",
-            min_value=1, max_value=200, value=ctx["ocupacion_actual"], step=1,
-            help="El consumo esperado y los días de cobertura de abajo se "
-                 "recalculan solos con este número.")
+            min_value=1, max_value=200, value=familias_sugeridas, step=1,
+            help="Se sugiere según el número de pacientes activos registrados; "
+                 "ajústalo si hace falta. El consumo esperado y los días de "
+                 "cobertura de abajo se recalculan solos con este número.")
+        if len(df_pac_fresco) and "familiares_presentes" in df_pac_fresco.columns:
+            personas_totales = len(df_pac_fresco) + int(
+                df_pac_fresco["familiares_presentes"].fillna(0).sum())
+            st.caption(f"{familias_sugeridas} familias (una por paciente activo) · "
+                       f"{personas_totales} personas en total, contando acompañantes. "
+                       "El cálculo de abajo usa el número de familias, no el de personas.")
         cobertura = calcular_cobertura_por_familias(ctx["df_inv"], ctx["df_catalogo"], familias)
 
         f1, f2, f3 = st.columns([2, 2, 1], gap="medium")
@@ -621,6 +633,11 @@ def formulario_paciente(ctx: dict) -> None:
         g1, g2, g3 = st.columns(3)
         with g1:
             edad      = st.number_input("Edad (años)", 2, 17, 8)
+            familiares_presentes = st.number_input(
+                "Familiares que lo acompañan", 0, 10, 1,
+                help="Cuántos familiares están presentes en el albergue junto al "
+                     "paciente. Es solo informativo: no participa en la evaluación "
+                     "de prioridad.")
             sexo      = st.selectbox("Sexo", ["Masculino", "Femenino"])
             distancia = st.number_input("Distancia a Lima (km)", 10, 1400, 600)
             lugar     = st.selectbox("Procedencia", ["Sierra sur", "Sierra norte", "Sierra centro",
@@ -707,6 +724,7 @@ def formulario_paciente(ctx: dict) -> None:
     if registrar:
         datos_guardar = dict(datos)
         datos_guardar["nivel_riesgo"] = "Medio"  # etiqueta original: referencia, no la usa el modelo
+        datos_guardar["familiares_presentes"] = familiares_presentes
         nuevo_id = guardar_paciente(datos_guardar)
         st.success(f"Registrado como nuevo paciente: **{nuevo_id}**. Aparecerá en las "
                    "listas de arriba la próxima vez que se actualice esta pantalla.")
@@ -754,6 +772,9 @@ def editar_paciente_existente(ctx: dict) -> None:
         with e3:
             emocional = st.selectbox("Estado emocional", opciones_emocional,
                                      index=opciones_emocional.index(base["estado_emocional_paciente"]))
+            familiares_presentes = st.number_input(
+                "Familiares que lo acompañan", 0, 10,
+                int(base["familiares_presentes"]) if "familiares_presentes" in base.index else 1)
         guardar_btn = st.form_submit_button("Guardar cambios", use_container_width=True)
 
     if not guardar_btn:
@@ -762,7 +783,8 @@ def editar_paciente_existente(ctx: dict) -> None:
     datos = dict(base)
     datos.update({"apoyo_familiar": apoyo, "adherencia_tratamiento": adherencia,
                   "acceso_medicamentos": acceso, "estado_nutricional": nutricion,
-                  "estado_emocional_paciente": emocional})
+                  "estado_emocional_paciente": emocional,
+                  "familiares_presentes": familiares_presentes})
     datos.pop(PACIENTE_ID_COL, None)
     guardar_paciente(datos, id_existente=id_sel)
 
@@ -986,8 +1008,11 @@ def main() -> None:
         "paciente_feature_cols": paciente_cols,
         "df_catalogo": df_catalogo, "fuente_datos": fuente,
         "m_inv": m_inv, "m_pac": m_pac, "plan": plan,
-        "ocupacion_actual": int(df_inv.loc[df_inv["semana_del_año"].idxmax(),
-                                           "ocupacion_albergue"]),
+        # Familias = pacientes activos registrados (feedback del compañero, 6 jul):
+        # antes se leía de datos históricos de ocupación; ahora se deriva del
+        # registro real de pacientes para que "familias" y "pacientes" no queden
+        # desincronizados entre sí.
+        "ocupacion_actual": max(1, len(df_pac)),
         "semana_actual": int(df_inv["semana_del_año"].max()),
         "unidad_por_tipo": (df_catalogo.groupby("categoria")["unidad_medida"]
                             .agg(lambda s: s.mode().iat[0]).to_dict()),
