@@ -1,5 +1,5 @@
 id_paciente,edad,sexo,lugar_procedencia,distancia_origen_km,grado_instruccion_cuidador,diagnostico,etapa_cancer,tipo_tratamiento,meses_en_tratamiento,num_reingresos,motivo_ingreso,motivo_reingreso,estado_fisico,estado_nutricional,presencia_infeccion,frecuencia_hospitalizacion_3m,adherencia_tratamiento,apoyo_familiar,acceso_medicamentos,estado_emocional_paciente,perdida_peso_reciente,num_comorbilidades,nivel_riesgo
-PAC-0001,6,Masculino,Costa norte,791,Primaria,Neuroblastoma,II,Quimioterapia,13,7,Emergencia,Continuación de radioterapia,Con ayuda parcial,Normal,1,4,Baja,Moderado,Parcial,Estable,0,0,Alto
+PAC-0001,6,Masculino,Costa norte,791,Primaria,Neuroblastoma,II,Quimioterapia,13,7,Emergencia,Continuación de radioterapia,Con ayuda parcial,Normal,1,4,Baja,Fuerte,Completo,Estable,0,0,Alto
 PAC-0002,10,Femenino,Costa norte,370,Superior técnica,Leucemia linfoblástica aguda,III,Quimioterapia,10,7,Tratamiento,Recaída,Usa silla de ruedas,Desnutrición leve,1,4,Alta,Moderado,Completo,Estable,1,1,Alto
 PAC-0003,13,Masculino,Selva,681,Secundaria,Retinoblastoma,III,Quimioterapia,15,5,Emergencia,Continuación de quimioterapia,Caminando,Desnutrición severa,1,3,Alta,Moderado,Parcial,Estable,1,2,Alto
 PAC-0004,14,Femenino,Sierra sur,650,Superior técnica,Linfoma de Hodgkin,IV,Quimio + Radio,16,4,Tratamiento,Seguimiento médico,Con ayuda parcial,Desnutrición severa,1,2,Alta,Moderado,Parcial,Ansioso,1,3,Alto
@@ -23,7 +23,7 @@ PAC-0197,12,Masculino,Sierra sur,731,Secundaria,Neuroblastoma,IV,Quimioterapia,2
 PAC-0198,16,Masculino,Sierra sur,622,Primaria,Osteosarcoma,IV,Quimioterapia,24,3,Tratamiento,Continuación de tratamiento,Con ayuda parcial,Normal,0,4,Media,Moderado,Completo,Estable,0,1,Medio
 PAC-0199,5,Femenino,Lima,17,Secundaria,Osteosarcoma,I,Quimioterapia,2,2,Emergencia,Continuación de tratamiento,Con ayuda parcial,Normal,0,1,Media,Moderado,Parcial,Ansioso,0,2,Medio
 PAC-0200,14,Masculino,Sierra centro,335,Sin estudios,Neuroblastoma,III,Quimioterapia,23,0,Control,Continuación de radioterapia,Caminando,Desnutrición severa,0,4,Baja,Moderado,Completo,Ansioso,1,1,Alto
-PAC-0201,12,Masculino,Lima,66,Primaria,Tumor cerebral,II,Quimio + Radio,6,4,Control,Continuación de tratamiento,Caminando,Normal,1,3,Baja,Fuerte,Limitado,Deprimido,0,0,MedioMedio
+PAC-0201,12,Masculino,Lima,66,Primaria,Tumor cerebral,II,Quimio + Radio,6,4,Control,Continuación de tratamiento,Caminando,Normal,1,3,Baja,Fuerte,Limitado,Deprimido,0,0,Medio
 PAC-0223,12,Femenino,Sierra norte,703,Superior técnica,Leucemia linfoblástica aguda,II,Quimio + Radio,6,1,Tratamiento,Continuación de radioterapia,Caminando,Normal,0,2,Alta,Moderado,Limitado,Estable,0,0,Bajo
 PAC-0224,16,Femenino,Sierra sur,785,Primaria,Leucemia mieloide aguda,I,Quimio + Cirugía,4,7,Control,Continuación de tratamiento,Caminando,Desnutrición leve,1,3,Baja,Moderado,Completo,Estable,0,0,Bajo
 PAC-0225,9,Femenino,Selva,1241,Secundaria,Leucemia linfoblástica aguda,I,Quimio + Radio,3,0,Tratamiento,Continuación de tratamiento,Caminando,Normal,1,0,Baja,Moderado,Limitado,Estable,0,2,Bajo
@@ -44,3 +44,5 @@ PAC-0354,5,Masculino,Costa norte,473,Primaria,Leucemia linfoblástica aguda,I,Ci
 PAC-0355,13,Femenino,Costa sur,295,Secundaria,Leucemia linfoblástica aguda,I,Quimioterapia,5,3,Examen,Continuación de tratamiento,Con ayuda parcial,Normal,0,2,Media,Moderado,Parcial,Estable,0,0,Bajo
 PAC-0356,14,Masculino,Sierra norte,469,Superior universitaria,Tumor cerebral,II,Quimio + Radio,5,1,Control,Continuación de quimioterapia,Caminando,Normal,0,2,Alta,Moderado,Parcial,Estable,0,0,Bajo
 PAC-0357,3,Masculino,Costa norte,522,Secundaria,Leucemia linfoblástica aguda,II,Quimio + Cirugía,5,1,Control,Recaída,Caminando,Normal,0,1,Media,Moderado,Completo,Ansioso,0,0,Bajo
+PAC-NEW-046,8,Masculino,Sierra sur,600,Sin estudios,Leucemia linfoblástica aguda,I,Quimioterapia,6,0,Tratamiento,Primer ingreso,Caminando,Normal,0,0,Alta,Fuerte,Completo,Estable,0,0,Medio
+PAC-NEW-047,8,Masculino,Sierra sur,600,Sin estudios,Leucemia linfoblástica aguda,I,Quimioterapia,6,0,Tratamiento,Primer ingreso,Caminando,Normal,0,0,Alta,Fuerte,Completo,Estable,0,0,Medio
