@@ -4,14 +4,23 @@ ALDIMI Predict — Dashboard 100% componentes nativos de Streamlit.
 El tema visual (colores, fondo, tipografía) se define en `.streamlit/config.toml`;
 este archivo no contiene CSS ni HTML manual.
 
+Actualización (6 jul): feedback de Jairo — la vista de personal (vista_usuario)
+ya no muestra gráficos, scores ni porcentajes de confianza; el consumo de
+inventario se recalcula en vivo según el número de familias que el personal
+ingresa (ver calcular_cobertura_por_familias()); se agregaron formularios para
+registrar ingresos de inventario y para dar de alta/editar pacientes. Las
+métricas técnicas (scores, importancia de variables, gráficos) siguen
+disponibles íntegras en vista_desarrollador() ("Modo Desarrollador").
+
 Estructura
 ──────────
  1. Configuración de página
  2. Carga de datos y modelos        → cargar_datos() / cargar_modelos()   [sin cambios]
  3. Lógica de negocio               → calcular_plan_reposicion()          [sin cambios]
+    + cobertura dinámica por familias, registro de ingresos y de pacientes (nuevo)
  4. Helpers de gráficos Plotly      → layout_grafico() / eje()
- 5. VISTA USUARIO (personal)        → vista_usuario()
- 6. VISTA DESARROLLADOR / ANALISTA  → vista_desarrollador()
+ 5. VISTA USUARIO (personal)        → vista_usuario()                    [sin tecnicismos]
+ 6. VISTA DESARROLLADOR / ANALISTA  → vista_desarrollador()               [sin cambios]
  7. Enrutado principal              → main()
 """
 
@@ -64,6 +73,8 @@ except NameError:
 #      cargar_modelos() → (m_inv:dict, m_pac:dict)
 # ══════════════════════════════════════════════════════════════════════════════
 DB_COMUN = os.path.join(BASE, "data", "aldimi_core.db")
+MOVIMIENTOS_CSV = os.path.join(BASE, "data", "processed", "movimientos_inventario.csv")
+PACIENTES_CSV = os.path.join(BASE, "data", "processed", "aldimi_pacientes_sintetico.csv")
 
 
 @st.cache_data
@@ -219,6 +230,163 @@ def calcular_plan_reposicion(df_inv: pd.DataFrame, df_catalogo: pd.DataFrame,
                 .sort_values(["_o", "Consumo semanal"], ascending=[True, False])
                 .drop(columns="_o"))
 
+# ══════════════════════════════════════════════════════════════════════════════
+# 3bis. COBERTURA DINÁMICA POR NÚMERO DE FAMILIAS  (nuevo, feedback de Jairo 6 jul)
+#    En vez de extrapolar el clasificador fuera de su rango de entrenamiento
+#    (40–60 familias; ver notebooks/modelo_cantidad_inventario.ipynb, sección 7),
+#    se usa una tasa de consumo histórica POR FAMILIA para cada producto. Así el
+#    "cuándo se acaba" escala de forma transparente y monotónica con las familias
+#    que ingresa el personal, sin depender de una caja negra.
+# ══════════════════════════════════════════════════════════════════════════════
+def calcular_tasa_percapita(df_inv: pd.DataFrame, df_catalogo: pd.DataFrame) -> pd.Series:
+    """Consumo semanal promedio por familia (histórico), por producto real.
+    Usa rolling_avg_salidas_3sem para ser consistente con "Consumo semanal"
+    del plan de reposición."""
+    catalogo = df_catalogo.set_index("codigo_articulo")
+    reales = catalogo.index[catalogo["es_producto"].astype(bool)]
+    real = df_inv[df_inv["codigo_articulo"].isin(reales)].copy()
+    real["percapita"] = real["rolling_avg_salidas_3sem"] / real["ocupacion_albergue"].replace(0, np.nan)
+    return real.groupby("codigo_articulo")["percapita"].mean().fillna(0.0)
+
+
+def cargar_movimientos_inventario() -> pd.DataFrame:
+    """Ingresos de producto registrados a mano por el personal (no viene en el histórico)."""
+    cols = ["fecha", "codigo_articulo", "cantidad", "nota"]
+    if os.path.exists(MOVIMIENTOS_CSV):
+        return pd.read_csv(MOVIMIENTOS_CSV)
+    return pd.DataFrame(columns=cols)
+
+
+def guardar_ingreso_inventario(codigo: str, cantidad: float, nota: str = "") -> None:
+    """Registra la llegada de un producto y refresca la caché para que se
+    refleje de inmediato en el stock y en la cobertura."""
+    from datetime import datetime
+    df_mov = cargar_movimientos_inventario()
+    nueva = pd.DataFrame([{
+        "fecha": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "codigo_articulo": codigo, "cantidad": cantidad, "nota": nota,
+    }])
+    os.makedirs(os.path.dirname(MOVIMIENTOS_CSV), exist_ok=True)
+    pd.concat([df_mov, nueva], ignore_index=True).to_csv(MOVIMIENTOS_CSV, index=False)
+    st.cache_data.clear()
+
+
+def stock_actual_con_movimientos(df_inv: pd.DataFrame, df_catalogo: pd.DataFrame) -> pd.Series:
+    """Último stock histórico (≥0) + ingresos manuales registrados desde entonces."""
+    catalogo = df_catalogo.set_index("codigo_articulo")
+    reales = catalogo.index[catalogo["es_producto"].astype(bool)]
+    real = df_inv[df_inv["codigo_articulo"].isin(reales)].copy()
+    ultimo = (real.sort_values("semana_del_año")
+                  .groupby("codigo_articulo")["stock_fin_semana"].last()
+                  .clip(lower=0))
+    df_mov = cargar_movimientos_inventario()
+    if len(df_mov):
+        extra = df_mov.groupby("codigo_articulo")["cantidad"].sum()
+        ultimo = ultimo.add(extra, fill_value=0)
+    return ultimo
+
+
+def texto_situacion_stock(dias) -> str:
+    if dias <= 0:
+        return "🔴 Ya no queda stock"
+    if not np.isfinite(dias):
+        return "⚪ Sin consumo reciente registrado"
+    if dias <= 3:
+        return f"🔴 ¡Urgente! Se acaba en {dias:.0f} día(s)"
+    if dias <= 14:
+        return f"🟠 Se acaba en {dias:.0f} días"
+    return f"🟢 Alcanza para {dias:.0f}+ días"
+
+
+@st.cache_data
+def calcular_cobertura_por_familias(df_inv: pd.DataFrame, df_catalogo: pd.DataFrame,
+                                     familias: int) -> pd.DataFrame:
+    """Días de cobertura de stock por producto real, dado un número de familias.
+    Sube el número de familias → sube el consumo esperado → bajan los días de
+    cobertura, siempre y de forma verificable (regla de 3, no un modelo)."""
+    catalogo = df_catalogo.set_index("codigo_articulo")
+    catalogo = catalogo[catalogo["es_producto"].astype(bool)]
+    tasas = calcular_tasa_percapita(df_inv, df_catalogo)
+    stock = stock_actual_con_movimientos(df_inv, df_catalogo)
+
+    filas = []
+    for codigo, st_actual in stock.items():
+        if codigo not in catalogo.index:
+            continue
+        info = catalogo.loc[codigo]
+        tasa = tasas.get(codigo, 0.0)
+        consumo_semana = tasa * familias
+        consumo_dia = consumo_semana / 7.0
+        if st_actual <= 0:
+            dias = 0.0
+        elif consumo_dia <= 1e-9:
+            dias = np.inf
+        else:
+            dias = st_actual / consumo_dia
+        filas.append({
+            "Código": codigo, "Producto": info["nombre_producto"],
+            "Categoría": info["categoria_general"], "Unidad": info["unidad_medida"],
+            "Stock actual": round(float(st_actual), 1),
+            "Consumo esperado/semana": round(float(consumo_semana), 2),
+            "_dias": dias, "Situación": texto_situacion_stock(dias),
+        })
+    tabla = pd.DataFrame(filas)
+    if tabla.empty:
+        return tabla
+    return tabla.sort_values("_dias").reset_index(drop=True)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# 3ter. ALTA / EDICIÓN DE PACIENTES  (nuevo, feedback de Jairo 6 jul)
+#    Persiste directamente sobre el CSV de pacientes (misma fuente que usa
+#    cargar_datos() en modo CSV). El score del modelo nunca se expone al
+#    personal: solo se traduce a una de estas 3 frases.
+# ══════════════════════════════════════════════════════════════════════════════
+def descripcion_prioridad(banda: str) -> str:
+    return {
+        "Alto": "🔴 Necesita atención pronto",
+        "Revisión": "🟡 Revisar cuando se pueda",
+        "Bajo": "🟢 Sin urgencia por ahora",
+    }.get(banda, banda)
+
+
+def señales_paciente(p) -> str:
+    señales = []
+    if p.get("etapa_cancer") in ("III", "IV"):
+        señales.append(f"etapa {p['etapa_cancer']}")
+    if p.get("presencia_infeccion") == 1:
+        señales.append("infección activa")
+    if p.get("estado_nutricional") not in ("Normal", None):
+        señales.append("desnutrición")
+    if p.get("perdida_peso_reciente") == 1:
+        señales.append("pérdida de peso reciente")
+    if p.get("apoyo_familiar") == "Limitado":
+        señales.append("poco apoyo familiar")
+    return ", ".join(señales[:3]) if señales else "sin señales de alarma específicas"
+
+
+def cargar_pacientes_actual() -> pd.DataFrame:
+    """Relee el CSV de pacientes en caliente (para reflejar altas/ediciones recién guardadas)."""
+    return pd.read_csv(PACIENTES_CSV)
+
+
+def guardar_paciente(datos: dict, id_existente=None) -> str:
+    """Crea un paciente nuevo o actualiza uno existente en el CSV. Devuelve el id usado."""
+    df_pac = cargar_pacientes_actual()
+    if id_existente and id_existente in df_pac[PACIENTE_ID_COL].values:
+        idx = df_pac.index[df_pac[PACIENTE_ID_COL] == id_existente][0]
+        for k, v in datos.items():
+            df_pac.loc[idx, k] = v
+        nuevo_id = id_existente
+    else:
+        n = len(df_pac) + 1
+        nuevo_id = f"PAC-NEW-{n:03d}"
+        fila = {**datos, PACIENTE_ID_COL: nuevo_id}
+        df_pac = pd.concat([df_pac, pd.DataFrame([fila])], ignore_index=True)
+    df_pac.to_csv(PACIENTES_CSV, index=False)
+    st.cache_data.clear()
+    return nuevo_id
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 # 4. HELPERS DE GRÁFICOS PLOTLY
@@ -290,8 +458,7 @@ def vista_usuario(ctx: dict) -> None:
                         detalle = ("sin stock" if r["Estado"] == "Agotado"
                                    else f"quedan {r['Stock actual']:g} {r['Unidad']}")
                         st.error(f"**{r['Producto']}** · {r['Categoría']} — {detalle} · "
-                                 f"consumo ~{r['Consumo semanal']:g} {r['Unidad']}/sem · "
-                                 f"riesgo 7 días: **{r['Riesgo 7 días']}%**")
+                                 f"consumo ~{r['Consumo semanal']:g} {r['Unidad']}/semana")
                     if len(urgentes) > 6:
                         st.caption(f"… y {len(urgentes) - 6} más en la pestaña Inventario.")
 
@@ -302,20 +469,34 @@ def vista_usuario(ctx: dict) -> None:
                     st.success("Sin pacientes clasificados con prioridad alta.")
                 else:
                     for _, p in pac_alto.head(6).iterrows():
-                        senales = []
-                        if p["etapa_cancer"] in ("III", "IV"):  senales.append(f"etapa {p['etapa_cancer']}")
-                        if p["presencia_infeccion"] == 1:       senales.append("infección")
-                        if p["estado_nutricional"] != "Normal": senales.append("desnutrición")
-                        if p["perdida_peso_reciente"] == 1:     senales.append("pérdida de peso")
                         st.error(f"**{p['id_paciente']}** · {int(p['edad'])} años · "
-                                 f"{p['diagnostico']} — score {p['risk_score']:.2f} · señales: "
-                                 f"{', '.join(senales[:3]) or 'revisar historia'}")
+                                 f"{p['diagnostico']} — señales: {señales_paciente(p)}")
                     if len(pac_alto) > 6:
                         st.caption(f"… y {len(pac_alto) - 6} más en la pestaña Pacientes.")
 
     # ── INVENTARIO ────────────────────────────────────────────────────────────
     with tab_inv:
         st.header("Plan de reposición — próximos 14 días")
+
+        # Sugerido a partir del registro de pacientes en vivo (no ctx, que puede
+        # quedar un paso atrás justo después de registrar/editar un paciente en
+        # esta misma sesión, antes del siguiente refresco natural de la página).
+        df_pac_fresco = cargar_pacientes_actual()
+        familias_sugeridas = max(1, len(df_pac_fresco))
+        familias = st.number_input(
+            "¿Cuántas familias hay hoy en el albergue?",
+            min_value=1, max_value=200, value=familias_sugeridas, step=1,
+            help="Se sugiere según el número de pacientes activos registrados; "
+                 "ajústalo si hace falta. El consumo esperado y los días de "
+                 "cobertura de abajo se recalculan solos con este número.")
+        if len(df_pac_fresco) and "familiares_presentes" in df_pac_fresco.columns:
+            personas_totales = len(df_pac_fresco) + int(
+                df_pac_fresco["familiares_presentes"].fillna(0).sum())
+            st.caption(f"{familias_sugeridas} familias (una por paciente activo) · "
+                       f"{personas_totales} personas en total, contando acompañantes. "
+                       "El cálculo de abajo usa el número de familias, no el de personas.")
+        cobertura = calcular_cobertura_por_familias(ctx["df_inv"], ctx["df_catalogo"], familias)
+
         f1, f2, f3 = st.columns([2, 2, 1], gap="medium")
         with f1:
             filtro = st.radio("Mostrar", ["Solo con acción pendiente", "Todos los productos"],
@@ -328,6 +509,15 @@ def vista_usuario(ctx: dict) -> None:
             q = busqueda.strip().lower()
             vista = vista[vista["Producto"].str.lower().str.contains(q, regex=False) |
                           vista["Código"].str.lower().str.contains(q, regex=False)]
+
+        vista = vista.drop(columns=["Stock actual", "Riesgo 7 días", "Riesgo 14 días",
+                                    "Consumo semanal"]).merge(
+            cobertura[["Código", "Stock actual", "Consumo esperado/semana", "Situación"]],
+            on="Código", how="left")
+        vista["Situación"] = vista["Situación"].fillna("⚪ Sin datos suficientes")
+        vista = vista[["Producto", "Categoría", "Unidad", "Stock actual",
+                       "Consumo esperado/semana", "Situación", "Estado", "Código"]]
+
         with f3:
             st.download_button("Descargar lista (CSV)",
                                vista.to_csv(index=False).encode("utf-8-sig"),
@@ -342,93 +532,112 @@ def vista_usuario(ctx: dict) -> None:
                 vista, use_container_width=True, hide_index=True, height=340,
                 column_config={
                     "Producto": st.column_config.TextColumn("Producto", width="large"),
-                    "Riesgo 7 días": st.column_config.ProgressColumn(
-                        "Riesgo 7 días", format="%d%%", min_value=0, max_value=100),
-                    "Riesgo 14 días": st.column_config.ProgressColumn(
-                        "Riesgo 14 días", format="%d%%", min_value=0, max_value=100),
                 })
             st.caption(f"{len(agotados)} agotados · {len(criticos)} críticos · "
-                       f"{len(planificar)} para planificar. El riesgo es la probabilidad "
-                       "de quedarse sin stock estimada por el sistema.")
+                       f"{len(planificar)} para planificar · calculado con **{familias} familias**.")
 
-        with st.expander("Consultar un producto — ¿alcanzará el stock?"):
-            m_inv = ctx["m_inv"]
-            s1, s2, s3 = st.columns([2, 2, 1], gap="medium")
-            with s1:
-                cat_sel = st.selectbox("Tipo de producto", m_inv["categorias"])
-                unidad  = ctx["unidad_por_tipo"].get(cat_sel, "unidades")
-                stock_h = st.number_input(f"Stock disponible hoy ({unidad})", 0.0, 500.0, 8.0, 1.0)
-            with s2:
-                consumo = st.number_input(f"Consumo semanal aproximado ({unidad})", 0.0, 100.0, 3.0, 0.5)
-                ocupa   = st.slider("Familias en el albergue", 40, 100, ctx["ocupacion_actual"])
-            with s3:
-                evaluar = st.button("Evaluar", use_container_width=True)
-            if evaluar:
-                X = np.array([[m_inv["le_categoria"].transform([cat_sel])[0],
-                               ocupa, stock_h, 0.0, consumo, consumo, ctx["semana_actual"]]])
-                X_sc = m_inv["scaler"].transform(X)
-                for dias, mod in [(7, "modelo_7d"), (14, "modelo_14d")]:
-                    prob = m_inv[mod].predict_proba(X_sc)[0][1]
-                    pred = m_inv[mod].predict(X_sc)[0]
-                    if pred:
-                        st.error(f"**A {dias} días — se agotaría** ({prob*100:.0f}% de riesgo). "
-                                 "Pedir reposición o donación esta misma semana.")
-                    else:
-                        st.success(f"**A {dias} días — alcanza** ({prob*100:.0f}% de riesgo). "
-                                   "El stock cubre este horizonte.")
+        st.divider()
+        st.subheader("Registrar llegada de productos")
+        with st.form("form_ingreso_inventario"):
+            opciones = dict(zip(cobertura["Producto"], cobertura["Código"]))
+            i1, i2, i3 = st.columns([3, 1, 2])
+            with i1:
+                producto_sel = st.selectbox("Producto", list(opciones.keys()))
+            with i2:
+                cantidad_ingreso = st.number_input("Cantidad recibida", min_value=0.0, step=1.0)
+            with i3:
+                nota_ingreso = st.text_input("Nota (opcional)", placeholder="ej. donación, compra…")
+            enviado_ingreso = st.form_submit_button("Guardar ingreso", use_container_width=True)
+
+        if enviado_ingreso:
+            if cantidad_ingreso <= 0:
+                st.warning("Ingresa una cantidad mayor a 0 antes de guardar.")
+            else:
+                codigo_ingreso = opciones[producto_sel]
+                guardar_ingreso_inventario(codigo_ingreso, cantidad_ingreso, nota_ingreso)
+                st.success(f"Registrado: +{cantidad_ingreso:g} de **{producto_sel}**. "
+                           "Cambia el número de familias o vuelve a esta pestaña para "
+                           "ver la tabla actualizada.")
+
+        with st.expander("Consultar un producto con otro número de familias"):
+            st.caption("Para probar un escenario distinto sin cambiar el número de arriba.")
+            c1, c2, c3 = st.columns([2, 1, 1], gap="medium")
+            with c1:
+                prod_consulta = st.selectbox("Producto", cobertura["Producto"].tolist(),
+                                             key="consulta_producto")
+            with c2:
+                familias_hip = st.number_input("Familias a probar", 1, 200, familias, step=1,
+                                               key="consulta_familias")
+            with c3:
+                consultar = st.button("Consultar", use_container_width=True)
+            if consultar:
+                cobertura_hip = calcular_cobertura_por_familias(
+                    ctx["df_inv"], ctx["df_catalogo"], familias_hip)
+                fila = cobertura_hip[cobertura_hip["Producto"] == prod_consulta].iloc[0]
+                st.info(f"Con **{familias_hip} familias**: {fila['Situación']} · "
+                        f"consumo esperado: {fila['Consumo esperado/semana']:g} "
+                        f"{fila['Unidad']}/semana · stock actual: {fila['Stock actual']:g} "
+                        f"{fila['Unidad']}.")
+
+        with st.expander("Ver movimientos de inventario registrados a mano"):
+            df_mov_ver = cargar_movimientos_inventario()
+            if df_mov_ver.empty:
+                st.caption("Todavía no se registró ningún ingreso manual.")
+            else:
+                st.dataframe(df_mov_ver.sort_values("fecha", ascending=False),
+                            use_container_width=True, hide_index=True)
 
     # ── PACIENTES ─────────────────────────────────────────────────────────────
     with tab_pac:
         st.header("Pacientes que requieren atención primero")
         if pac_alto.empty:
-            st.success("Ningún paciente con score de riesgo en banda Alta.")
+            st.success("Ningún paciente en prioridad alta ahora mismo.")
         else:
             tabla = pac_alto[["id_paciente", "edad", "diagnostico", "etapa_cancer",
                               "estado_nutricional", "presencia_infeccion",
-                              "adherencia_tratamiento", "risk_score"]].copy()
+                              "adherencia_tratamiento"]].copy()
             tabla["presencia_infeccion"] = tabla["presencia_infeccion"].map({1: "Sí", 0: "No"})
             tabla.columns = ["Paciente", "Edad", "Diagnóstico", "Etapa",
-                             "Nutrición", "Infección", "Sigue tratamiento", "Score"]
-            st.dataframe(
-                tabla, use_container_width=True, hide_index=True, height=280,
-                column_config={
-                    "Score": st.column_config.ProgressColumn(
-                        "Score", format="%.2f", min_value=0.0, max_value=1.0)
-                },
-            )
-            st.caption(f"{len(pac_alto)} de {len(df_pac)} pacientes (score > {ALTO_MIN:.2f}). "
+                             "Nutrición", "Infección", "Sigue tratamiento"]
+            st.dataframe(tabla, use_container_width=True, hide_index=True, height=280)
+            st.caption(f"{len(pac_alto)} de {len(df_pac)} pacientes en prioridad alta. "
                        "Confirmar cada caso con el equipo médico.")
 
         st.divider()
-        st.subheader("Situación general (score del modelo)")
+        st.subheader("Situación general de los pacientes")
         for banda, etiqueta in [("Alto", "Prioridad alta"), ("Revisión", "En revisión"),
                                 ("Bajo", "Prioridad baja")]:
             cnt = int((df_pac["banda_riesgo"] == banda).sum())
             pct = cnt / len(df_pac)
             st.progress(pct, text=f"{etiqueta}: {cnt} pacientes ({pct*100:.0f}%)")
 
-        with st.expander("Ver etiqueta original del dataset (referencia, no usada por el modelo)"):
-            st.caption(
-                "La columna `nivel_riesgo` proviene del dataset sintético original (3 clases) "
-                "y se muestra únicamente como referencia / comparación. El sistema actual "
-                "clasifica y prioriza usando el score binario del modelo, no esta etiqueta."
-            )
-            tabla_ref = df_pac[["id_paciente", "nivel_riesgo", "banda_riesgo", "risk_score"]].copy()
-            tabla_ref.columns = ["Paciente", "Etiqueta original (CSV)", "Banda del modelo", "Score"]
-            st.dataframe(tabla_ref, use_container_width=True, hide_index=True, height=240)
-
         st.divider()
-        with st.expander("Evaluar prioridad de un paciente nuevo"):
+        # Nota: se usa st.radio() en vez de un segundo st.tabs() anidado dentro de
+        # la pestaña "Pacientes" — se detectó en pruebas manuales que Streamlit
+        # puede mezclar visualmente el contenido de pestañas anidadas después de
+        # interactuar con un formulario. El radio evita ese problema por completo.
+        accion_paciente = st.radio(
+            "¿Qué quieres hacer?", ["➕ Registrar nuevo paciente", "✏️ Editar paciente existente"],
+            horizontal=True, label_visibility="collapsed")
+        if accion_paciente == "➕ Registrar nuevo paciente":
             formulario_paciente(ctx)
+        else:
+            editar_paciente_existente(ctx)
 
 
 def formulario_paciente(ctx: dict) -> None:
-    """Formulario de evaluación de prioridad (lógica de encoding intacta)."""
+    """Evalúa la prioridad de un paciente y, si se marca la casilla, lo registra
+    como nuevo ingreso (el score nunca se muestra al personal)."""
     m_pac = ctx["m_pac"]
     with st.form("form_paciente"):
         g1, g2, g3 = st.columns(3)
         with g1:
             edad      = st.number_input("Edad (años)", 2, 17, 8)
+            familiares_presentes = st.number_input(
+                "Familiares que lo acompañan", 0, 10, 1,
+                help="Cuántos familiares están presentes en el albergue junto al "
+                     "paciente. Es solo informativo: no participa en la evaluación "
+                     "de prioridad.")
             sexo      = st.selectbox("Sexo", ["Masculino", "Femenino"])
             distancia = st.number_input("Distancia a Lima (km)", 10, 1400, 600)
             lugar     = st.selectbox("Procedencia", ["Sierra sur", "Sierra norte", "Sierra centro",
@@ -464,13 +673,14 @@ def formulario_paciente(ctx: dict) -> None:
             comorb     = st.number_input("Otras enfermedades (n°)", 0, 3, 0)
             frec_hosp  = st.number_input("Hospitalizaciones (últimos 3 meses)", 0, 8, 0)
             reingresos = st.number_input("N° reingresos previos", 0, 7, 0)
+        registrar = st.checkbox("Registrar este paciente como nuevo ingreso al guardar")
         enviado = st.form_submit_button("Evaluar prioridad de atención",
                                         use_container_width=True)
 
     if not enviado:
         return
 
-    X_new = pd.DataFrame([{
+    datos = {
         "edad": edad,
         "sexo": sexo,
         "lugar_procedencia": lugar,
@@ -493,34 +703,100 @@ def formulario_paciente(ctx: dict) -> None:
         "estado_emocional_paciente": emocional,
         "perdida_peso_reciente": int(peso == "Sí"),
         "num_comorbilidades": comorb,
-    }])
+    }
+    X_new = pd.DataFrame([datos])
 
-    # --- Binary risk score (Alto vs Bajo), Medio ya no es una clase entrenada ---
+    # --- Score binario interno (Alto vs Bajo); nunca se muestra al personal ---
     score = score_paciente_alto(m_pac, X_new)[0]
-
-    if score < BAJO_MAX:
-        banda = "Bajo"
-    elif score <= ALTO_MIN:
-        banda = "Revisión"
-    else:
-        banda = "Alto"
+    banda = banda_desde_score(score)
 
     if banda == "Alto":
-        st.error(f"**PRIORIDAD ALTA** (score: {score:.2f}) — Atender primero: avisar al "
-                 "médico tratante y hacer seguimiento diario.")
+        st.error("**PRIORIDAD ALTA** — Atender primero: avisar al médico tratante "
+                 "y hacer seguimiento diario.")
     elif banda == "Revisión":
-        st.warning(f"**ZONA DE REVISIÓN** (score: {score:.2f}) — Caso ambiguo: se recomienda "
-                   "evaluación clínica adicional antes de definir prioridad.")
+        st.warning("**ZONA DE REVISIÓN** — Caso ambiguo: se recomienda evaluación "
+                   "clínica adicional antes de definir prioridad.")
     else:
-        st.success(f"**PRIORIDAD BAJA** (score: {score:.2f}) — Continuar con los controles "
-                   "habituales según cronograma.")
+        st.success("**PRIORIDAD BAJA** — Continuar con los controles habituales "
+                   "según cronograma.")
+    st.caption("Resultado orientativo; la evaluación clínica la confirma el personal de salud.")
 
-    st.caption(
-        f"Score de riesgo: {score:.2f} sobre 1.00 (0 = bajo riesgo, 1 = alto riesgo). "
-        f"Bandas: Bajo < {BAJO_MAX:.2f} · Revisión {BAJO_MAX:.2f}–{ALTO_MIN:.2f} · "
-        f"Alto > {ALTO_MIN:.2f}. Resultado orientativo; la evaluación clínica la "
-        "confirma el personal de salud."
-    )
+    if registrar:
+        datos_guardar = dict(datos)
+        datos_guardar["nivel_riesgo"] = "Medio"  # etiqueta original: referencia, no la usa el modelo
+        datos_guardar["familiares_presentes"] = familiares_presentes
+        nuevo_id = guardar_paciente(datos_guardar)
+        st.success(f"Registrado como nuevo paciente: **{nuevo_id}**. Aparecerá en las "
+                   "listas de arriba la próxima vez que se actualice esta pantalla.")
+
+
+def editar_paciente_existente(ctx: dict) -> None:
+    """Carga un paciente ya registrado, permite ajustar sus variables accionables
+    (no las clínicas) y guarda los cambios. Muestra el cambio de prioridad en
+    lenguaje llano, nunca el score."""
+    m_pac = ctx["m_pac"]
+    df_pac_actual = cargar_pacientes_actual()
+    if df_pac_actual.empty:
+        st.info("No hay pacientes registrados todavía.")
+        return
+
+    id_sel = st.selectbox("Selecciona un paciente", df_pac_actual[PACIENTE_ID_COL].tolist(),
+                          key="sel_editar_paciente")
+    base = df_pac_actual[df_pac_actual[PACIENTE_ID_COL] == id_sel].iloc[0]
+    fila_actual = df_pac_actual[df_pac_actual[PACIENTE_ID_COL] == id_sel]
+    cols_modelo = columnas_paciente_modelo(fila_actual, m_pac)
+    banda_antes = banda_desde_score(score_paciente_alto(m_pac, fila_actual[cols_modelo])[0])
+
+    st.caption(f"Datos clínicos de referencia (no editables aquí): {int(base['edad'])} años · "
+               f"{base['diagnostico']} · etapa {base['etapa_cancer']} · "
+               f"{base['meses_en_tratamiento']} meses en tratamiento.")
+
+    opciones_apoyo = ["Fuerte", "Moderado", "Limitado"]
+    opciones_adherencia = ["Alta", "Media", "Baja"]
+    opciones_acceso = ["Completo", "Parcial", "Limitado"]
+    opciones_nutricion = ["Normal", "Desnutrición leve", "Desnutrición severa"]
+    opciones_emocional = ["Estable", "Ansioso", "Deprimido"]
+
+    with st.form(f"form_editar_{id_sel}"):
+        e1, e2, e3 = st.columns(3)
+        with e1:
+            apoyo = st.selectbox("Apoyo familiar", opciones_apoyo,
+                                 index=opciones_apoyo.index(base["apoyo_familiar"]))
+            adherencia = st.selectbox("¿Sigue el tratamiento?", opciones_adherencia,
+                                      index=opciones_adherencia.index(base["adherencia_tratamiento"]))
+        with e2:
+            acceso = st.selectbox("Acceso a medicamentos", opciones_acceso,
+                                  index=opciones_acceso.index(base["acceso_medicamentos"]))
+            nutricion = st.selectbox("Estado nutricional", opciones_nutricion,
+                                     index=opciones_nutricion.index(base["estado_nutricional"]))
+        with e3:
+            emocional = st.selectbox("Estado emocional", opciones_emocional,
+                                     index=opciones_emocional.index(base["estado_emocional_paciente"]))
+            familiares_presentes = st.number_input(
+                "Familiares que lo acompañan", 0, 10,
+                int(base["familiares_presentes"]) if "familiares_presentes" in base.index else 1)
+        guardar_btn = st.form_submit_button("Guardar cambios", use_container_width=True)
+
+    if not guardar_btn:
+        return
+
+    datos = dict(base)
+    datos.update({"apoyo_familiar": apoyo, "adherencia_tratamiento": adherencia,
+                  "acceso_medicamentos": acceso, "estado_nutricional": nutricion,
+                  "estado_emocional_paciente": emocional,
+                  "familiares_presentes": familiares_presentes})
+    datos.pop(PACIENTE_ID_COL, None)
+    guardar_paciente(datos, id_existente=id_sel)
+
+    fila_nueva = pd.DataFrame([{**datos, PACIENTE_ID_COL: id_sel}])
+    cols_modelo2 = columnas_paciente_modelo(fila_nueva, m_pac)
+    banda_despues = banda_desde_score(score_paciente_alto(m_pac, fila_nueva[cols_modelo2])[0])
+
+    if banda_antes != banda_despues:
+        st.success(f"Guardado. Prioridad: {descripcion_prioridad(banda_antes)} → "
+                   f"**{descripcion_prioridad(banda_despues)}**")
+    else:
+        st.success(f"Guardado. Prioridad: {descripcion_prioridad(banda_despues)}")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -590,6 +866,17 @@ def vista_desarrollador(ctx: dict) -> None:
                     st.info("El modelo binario no expone feature_importances_ y no se calculó importancia por permutación.")
                 st.caption(f"En producción: modelo binario RF · {len(paciente_cols)} variables de entrada · "
                            "score de riesgo alto con bandas Bajo / Revisión / Alto.")
+
+                with st.expander("Comparar con etiqueta original del dataset (3 clases)"):
+                    st.caption(
+                        "La columna `nivel_riesgo` proviene del dataset sintético original (3 clases) "
+                        "y se muestra únicamente como referencia / comparación. El sistema en producción "
+                        "clasifica y prioriza usando el score binario del modelo, no esta etiqueta. "
+                        "(Sección movida aquí desde la vista de personal — feedback de Jairo, 6 jul.)"
+                    )
+                    tabla_ref = df_pac_modelo[["id_paciente", "nivel_riesgo", "banda_riesgo", "risk_score"]].copy()
+                    tabla_ref.columns = ["Paciente", "Etiqueta original (CSV)", "Banda del modelo", "Score"]
+                    st.dataframe(tabla_ref, use_container_width=True, hide_index=True, height=240)
 
     # ── PIPELINE ──────────────────────────────────────────────────────────────
     with tab_pipe:
@@ -721,8 +1008,11 @@ def main() -> None:
         "paciente_feature_cols": paciente_cols,
         "df_catalogo": df_catalogo, "fuente_datos": fuente,
         "m_inv": m_inv, "m_pac": m_pac, "plan": plan,
-        "ocupacion_actual": int(df_inv.loc[df_inv["semana_del_año"].idxmax(),
-                                           "ocupacion_albergue"]),
+        # Familias = pacientes activos registrados (feedback del compañero, 6 jul):
+        # antes se leía de datos históricos de ocupación; ahora se deriva del
+        # registro real de pacientes para que "familias" y "pacientes" no queden
+        # desincronizados entre sí.
+        "ocupacion_actual": max(1, len(df_pac)),
         "semana_actual": int(df_inv["semana_del_año"].max()),
         "unidad_por_tipo": (df_catalogo.groupby("categoria")["unidad_medida"]
                             .agg(lambda s: s.mode().iat[0]).to_dict()),
