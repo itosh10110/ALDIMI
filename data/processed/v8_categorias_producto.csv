@@ -1,0 +1,9 @@
+id_categoria,nombre_categoria,tipo_necesidad,prioridad_base,es_perecible
+1,Despensa base,alimento,5,0
+2,Proteínas y hierro,alimento,5,1
+3,Frutas y verduras,alimento,4,1
+4,Lácteos y desayuno,alimento,5,1
+5,Higiene personal,higiene,4,0
+6,Limpieza del albergue,limpieza,3,0
+7,Salud y protección,salud,4,0
+8,Apoyo infantil,infantil,4,0

@@ -1,0 +1,26 @@
+﻿id_geo,departamento,capital,distancia_lima_km,zona_modelo
+1,Lima,Lima,0,Lima Metropolitana
+2,Callao,Callao,12,Lima Metropolitana
+3,Ica,Ica,305,Costa sur
+4,Arequipa,Arequipa,1015,Costa sur
+5,Moquegua,Moquegua,1145,Costa sur
+6,Tacna,Tacna,1293,Costa sur
+7,La Libertad,Trujillo,560,Costa norte
+8,Lambayeque,Chiclayo,770,Costa norte
+9,Piura,Piura,980,Costa norte
+10,Tumbes,Tumbes,1270,Costa norte
+11,Ancash,Huaraz,400,Sierra norte
+12,Cajamarca,Cajamarca,870,Sierra norte
+13,Junín,Huancayo,305,Sierra centro
+14,Huancavelica,Huancavelica,450,Sierra centro
+15,Ayacucho,Ayacucho,560,Sierra centro
+16,Apurímac,Abancay,910,Sierra sur
+17,Cusco,Cusco,1100,Sierra sur
+18,Puno,Puno,1300,Sierra sur
+19,Huánuco,Huánuco,410,Sierra centro
+20,Pasco,Cerro de Pasco,290,Sierra centro
+21,Amazonas,Chachapoyas,1220,Selva norte
+22,Loreto,Iquitos,1010,Selva norte
+23,San Martín,Moyobamba,980,Selva norte
+24,Ucayali,Pucallpa,750,Selva centro
+25,Madre de Dios,Puerto Maldonado,1550,Selva sur
